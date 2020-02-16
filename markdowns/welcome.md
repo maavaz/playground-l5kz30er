@@ -1,10 +1,8 @@
-# Welcome!
+# Apresentação
 
-This Basic template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
+Oi Pessoal,
 
-
-Please refer to the [documentation](https://tech.io/doc) to learn more about adding programming exercises within your contribution.
-
+Apresentamos mais um playground contendo uma Introdução a Linguagem R. 
 # Template Resources
 
 [`markdowns/welcome.md`](https://github.com/TechDotIO/techio-basic-template/blob/master/markdowns/welcome.md)  
