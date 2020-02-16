@@ -7,4 +7,5 @@ plan:
 projects:
   markdowns:
     root: /markdowns
+    runner: R:1 
   
