@@ -2,7 +2,7 @@
 
 Oi Pessoal,
 
-Estamos de volta mais uma vez para apresenta um material introdutório que achamos ser de bastante interesse das pessoas que querem iniciar na <b>programação R</b>, um conjunto integrado de pacotes úteis para análise estatística, para as mais variadas áreas do conhecimento, como atuária, economia, biologia, genética, ciências sociais. 
+Estamos de volta mais uma vez para apresentar um material introdutório que achamos ser de bastante interesse das pessoas que querem iniciar na <b>programação R</b>, um conjunto integrado de pacotes úteis para análise estatística, para as mais variadas áreas do conhecimento, como atuária, economia, biologia, genética, ciências sociais. 
 Com essa grande quantidade de “pacotes estatísticos” disponíveis é possível manipular dados, efetuar cálculos e exibir de gráficos de forma eficaz e armazená-los. Há uma coleção crescente de ferramentas de análise de dados com o “poder” de resolver problemas diversos. 
 
 Entre outras coisas, <b>R</b> 
