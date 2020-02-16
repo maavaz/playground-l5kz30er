@@ -6,7 +6,7 @@ Semelhantemente ao Python, o R possui alguns ambientes integrados de desenvolvim
 
 O RStudio é um ambiente integrado para o desenvolvimento da Programação R. Para instalá-lo, é necessário efetuar download do instalador em: Studio, v´a em https:
 http:\\www.rstudio.com\products\rstudio\download\. Caso já possua o ambiente Anaconda (http:\\Anaconda.com), você pode instalá-lo de dentro do ambiente.
-
+![rstudio](/markdowns/imagens/rstudio.png)
 
 
 
