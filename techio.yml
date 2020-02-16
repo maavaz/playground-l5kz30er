@@ -4,8 +4,4 @@ plan:
   statement: markdowns/welcome.md
 - title: Instalação
   statement: markdowns/Instala.md  
-projects:
-  markdowns:
-    root: /markdowns
-    runner: R:1 
-  
+
