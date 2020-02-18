@@ -2,7 +2,7 @@
 
 O **programa R** permite a sua utilização através de uma interface interativa. O **R** emite um prompt que espera a digitação de um comando de entrada para receber o resultado.  
 
-![excecao](/markdowns/imagens/consolR.png)
+![excecao](/markdowns/imagens/consoleR.png)
 
 # Pacotes no R
 
