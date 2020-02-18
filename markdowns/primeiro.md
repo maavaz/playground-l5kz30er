@@ -1,6 +1,6 @@
 # Console do R
 
-O **programa R** permite a sua utilização através de uma interface interativa. O **R** emite um prompt que espera a digitação de um comando de entrada para receber o resultado.  
+O **programa R** permite a sua utilização através de uma interface interativa. O **R** emite um prompt que espera a digitação de um comando de entrada para enviar o resultado.  
 
 ![excecao](/markdowns/imagens/consoleR.png)
 
