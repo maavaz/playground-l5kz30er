@@ -17,3 +17,12 @@ Toda variável tem que ter:
 
 O comando de atribuição tem a função de mover um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:<br>
 ![atribuicao](/markdowns/imagens/atribuicao.png)
+
+``` R
+z <- 7 # Criando a variável z do tipo inteiro
+
+nome = "Marco"  # Criando a variável nome do tipo string
+
+assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
+
+
