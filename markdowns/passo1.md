@@ -4,6 +4,15 @@ Normalmente, os nomes de variáveis permitem todos caracteres alfanuméricos (e 
 
 ### Variáveis
 
+Para que um programa, escrito em uma linguagem qualquer, possa manipular os dados, estes precisam estar armazenados em locais da memória do computador. Esse locais usados para armazenar dados são denominados de **variáveis**. Por definição,
+
+As **Variáveis** representam locais de memória usados para armazenar temporariamente dados(valores) que deverão ser utilizados durante a execução do programa ou na seção do terminal.*
+
+Toda variável tem que ter:
+
++ <b>Um nome</b> - que é como ela será chamada ao guardar e recuperar a informação da memória. O nome deve seguir a regra e;
++ <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se no conteúdo que foi a ela atribuído; e
 
 ### Comando de Atribuição
-O comando de atribuição que representa a movimentação de valor para dentro de uma variável
+
+O comando de atribuição tem a função de mover um valor para dentro de uma variável. O **R** podemos usar três tipos/formas de representar o comando de atribuição:
