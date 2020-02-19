@@ -24,5 +24,5 @@ z <- 7 # Criando a variável z do tipo inteiro
 nome = "Marco"  # Criando a variável nome do tipo string
 
 assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
-
+```
 
