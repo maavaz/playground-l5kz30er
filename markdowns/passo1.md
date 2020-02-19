@@ -15,5 +15,5 @@ Toda variável tem que ter:
 
 ### Comando de Atribuição
 
-O comando de atribuição tem a função de mover um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:
+O comando de atribuição tem a função de mover um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:<br>
 ![atribuicao](/markdowns/imagens/atribuicao.png)
