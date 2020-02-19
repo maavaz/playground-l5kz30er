@@ -5,4 +5,6 @@ plan:
 - title: Instalação
   statement: markdowns/Instala.md  
 - title: Interatividade
-  statement: markdowns/primeiro.md  
+  statement: markdowns/primeiro.md 
+- title: Primeiros Passos
+  statement: markdowns/passo1.md    
