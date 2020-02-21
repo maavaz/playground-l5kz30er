@@ -19,9 +19,11 @@ O comando de atribuição tem a função de mover um valor para dentro de uma va
 ![atribuicao](/markdowns/imagens/atribuicao.png)
 
 ``` R
-z <- 7 # Criando a variável z do tipo inteiro
+z <- 7                # Criando a variável z do tipo inteiro
 
-nome = "Marco"  # Criando a variável nome do tipo string
+10 -> x               # Criando a variável x do tipo inteiro
+
+nome = "Marco"        # Criando a variável nome do tipo string
 
 assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
 ```
