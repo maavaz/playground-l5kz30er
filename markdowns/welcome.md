@@ -18,7 +18,7 @@ condicionais, loops, funções recursivas definidas pelo usuário e recursos de 
 
 Porém, é importante salientar que esse material não irá esgotar todos os temas que serão apresentados e, por isso, aconselhamos, para quem desejar se aprofundar, pesquisar outros materiais.<br>
 Diferentemente dos materiais introdutórios, esse material parte do pressuposto que o usuário já possua noções de desenvolvimento de programas, caso negativo sugerimos os materiais disponíveis em:</br>
-+ Introdução a Programação Python
++ Introdução a Programação Python </br>
 https://www.codingame.com/playgrounds/7178bc199e90b50dc41b62bacdc65ffe47743/introducao-a-programacao-python---prof--marco-vaz/apresentacao
-+ Introdução a Programação C
++ Introdução a Programação C </br>
 https://www.codingame.com/playgrounds/eaacc1a8fe491aec7b8e6088d6daac5801342/introducao-a-programacao-c/apresentacao
