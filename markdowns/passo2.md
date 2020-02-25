@@ -31,7 +31,7 @@ veti <- c(1,3,5)
 print(veti)
 
 # Criando o vetor de números pares a partir da operação soma
-vetp =  veti + [1, 1, 1]
+vetp =  veti + c(1, 1, 1)
 print(vetp)
 
 # Criando o vetor vreal do real com 4 elementos
