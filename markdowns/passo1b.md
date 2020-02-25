@@ -43,6 +43,7 @@ No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura 
 
 ### Entrada de dados de Planilhas MS-Excel
 
-Para importar dados diretamente de planilhas MS-Excel, o R disponibiliza alguns pacotes. No entanto, estes pacotes geralmente possuem particularidades quanto ao sistema operacional e demais dependências para funcionar corretamente. Novamente, sugerimos pesquisar esse tipo função quando for necessário a leitura de dados de planilhas. 
+Para importar dados diretamente de planilhas MS-Excel, o R disponibiliza alguns pacotes. No entanto, estes pacotes geralmente possuem particularidades quanto ao sistema operacional e demais dependências para funcionar corretamente. <br>
+Novamente, sugerimos pesquisar esse tipo função quando for necessário a leitura de dados de planilhas. 
 
 
