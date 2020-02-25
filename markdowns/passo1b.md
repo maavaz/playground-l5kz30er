@@ -24,7 +24,7 @@ Como exemplo,utilizaremos os dados do arquivo **"texte.txt"** no diretório de t
 campo1;campo2;campo3
 01;"teste_campo1";"teste_campo3"
 02;"teste1_campo1";"teste1_campo3"
-No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura desses dados e importá-los para a **variável tabela**:
+No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura desses dados e importá-los para o **DataFrame tabela**:
 ``` R
 > tabela <- read.table("teste.txt", header=TRUE,sep=";")
 > tabela
