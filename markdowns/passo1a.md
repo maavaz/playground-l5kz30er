@@ -45,10 +45,9 @@ Read 5 items
 ```
 
 ### Exercício:<br>
-```
-Usando a função scan() crie variáveis para armazenar os seguintes valores:<br>
-1, 3, 9, 13, 18, 20, 25, 32 <br>
-1.0, 1.1, 1.2, 1.3, 1.4, 1.9 <br>
-centro, tijuca, ilha do governador, leblon, ipanema<br>
-TRUE, TRUE, FALSE, FALSE, TRUE<br>
-```
+#### Usando a função **scan()** crie variáveis para armazenar os seguintes valores:<br>
++ 1, 3, 9, 13, 18, 20, 25, 32 <br>
++ 1.0, 1.1, 1.2, 1.3, 1.4, 1.9 <br>
++ centro, tijuca, ilha do governador, leblon, ipanema<br>
++ TRUE, TRUE, FALSE, FALSE, TRUE<br>
+ 
