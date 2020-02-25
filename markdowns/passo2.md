@@ -37,4 +37,7 @@ print(vetp)
 # Criando o vetor vreal do real com 4 elementos
 vreal = c(5.7, 3.3, 6.5, 7.7) * 2
 print(vreal)
+
+# Criando um vetor de inteiros
+vresto = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
 ```
