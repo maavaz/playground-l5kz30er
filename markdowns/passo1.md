@@ -29,6 +29,6 @@ assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
 ```
 ### Executando Comandos em R
 
-Os comandos em R podem ser executados diretamente na console do editor ou ser criado um script (extensão .R) que pode ser executado comando a comando ou utilizando a função **source()** que irá executar os todos os comandos existentes no script. O formato geral simplificado do comando é apresentado abaixo:</br>
+Os comandos em R podem ser executados diretamente na console do editor ou através de um arquivo de script (**extensão .R**) que pode ser executado comando a comando. Caso deseje executar todos os comandos do script na sequência, utilizar a função **source()**. O formato geral simplificado do comando é apresentado abaixo:</br>
 ![excecao](/markdowns/imagens/source.png)
 
