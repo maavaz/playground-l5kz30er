@@ -51,6 +51,7 @@ Matrizes são generalizações multidimensionais de vetores, isto é, possuem ma
 matx <- matrix(c(1,2,3,4),ncol = 2)
 print(matx)
 
+#Pulando de Linha 
 cat("\n")
 
 # Criando a matriz 3x3 maty
