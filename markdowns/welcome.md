@@ -17,3 +17,5 @@ Entre outras coisas, <b>R</b>
 condicionais, loops, funções recursivas definidas pelo usuário e recursos de entrada e saída. .
 
 Porém, é importante salientar que esse material não irá esgotar todos os temas que serão apresentados e, por isso, aconselhamos, para quem desejar se aprofundar, pesquisar outros materiais.
+Diferentemente dos materiais introdutórios, esse material parte do pressuposto que o usuário já possua noções de desenvolvimento de programas, caso negativo sugerimos os materiais disponíveis em:
+
