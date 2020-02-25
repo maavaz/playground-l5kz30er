@@ -32,11 +32,12 @@ No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura 
 1      1  teste_campo1  teste_campo3
 2      2 teste1_campo1 teste1_campo3
 
-# A função str() exibe a estrutura do objeto tabela.
+# A função str() exibe a estrutura do DataFrame tabela.
 > str(tabela)
 'data.frame':	2 obs. of  3 variables:
  $ campo1: int  1 2
  $ campo2: Factor w/ 2 levels "teste_campo1",..: 1 2
  $ campo3: Factor w/ 2 levels "teste_campo3",..: 1 2
 ```
+**OBS:** Para arquivos **.csv** o R possui duas funções de leitura específicas: **read.csv() e read.csv2()**. Para mais detalhes, sugerimos acessar o help dos IDEs.
 
