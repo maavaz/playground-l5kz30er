@@ -16,8 +16,11 @@ vetx <- c(1,2,3,4,5)
 print(vetx)
 
 # Criando o vetor vletra de caracteres com 3 elementos
-
 vletra <- c('a', 'b', 'c')
 print(vletra)
-```
 
+# Criando o vetor vreal do real com 4 elementos
+assign("vreal", c(5.7, 3.3, 6.5, 7.7))
+print(vreal)
+```
+### Operações com vetores
