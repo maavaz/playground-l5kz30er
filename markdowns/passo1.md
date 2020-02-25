@@ -6,7 +6,7 @@ Normalmente, os nomes de variáveis permitem todos caracteres alfanuméricos (e 
 
 Para um programa, escrito em uma linguagem qualquer, manipular os dados, estes precisam estar armazenados em locais da memória do computador. Esses locais usados para armazenar dados são denominados de **variáveis**. Por definição,
 
-As **Variáveis** representam locais de memória usados para armazenar temporariamente dados(valores) que deverão ser utilizados durante a execução do programa ou na seção do terminal.*
+*As **Variáveis** representam locais de memória usados para armazenar temporariamente dados(valores) que deverão ser utilizados durante a execução do programa ou na seção do terminal.*
 
 Toda variável tem que ter:
 
