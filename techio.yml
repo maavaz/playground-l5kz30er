@@ -10,5 +10,7 @@ plan:
   statement: markdowns/passo1.md   
 - title: Entrada e Saída
   statement: markdowns/passo1a.md     
+- title: Entrada de dados (continuação)
+  statement: markdowns/passo1b.md   
 - title: Estruturas de dados em R
   statement: markdowns/passo2.md
