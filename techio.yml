@@ -7,4 +7,6 @@ plan:
 - title: Interatividade
   statement: markdowns/primeiro.md 
 - title: Primeiros Passos
-  statement: markdowns/passo1.md    
+  statement: markdowns/passo1.md   
+- title: Estruturas de dados em R
+  statement: markdowns/passo2.md
