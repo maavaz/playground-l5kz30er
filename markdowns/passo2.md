@@ -52,7 +52,7 @@ matx <- matrix(c(1,2,3,4),ncol = 2)
 print(matx)
 
 # Criando a matriz 3x3 maty
-maty <- matrix(c(10,100,1000,20, 200, 2000, 30, 300, 3000),ncol = 2)
+maty <- matrix(c(10,100,1000,20, 200, 2000, 30, 300, 3000),ncol = 3)
 print(maty)
 ```
 
