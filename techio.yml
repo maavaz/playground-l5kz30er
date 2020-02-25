@@ -15,4 +15,4 @@ plan:
 projects:
   pyt:
     root: /markdowns
-    runner: R
+    runner: R:latest
