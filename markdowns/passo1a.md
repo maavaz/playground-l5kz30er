@@ -50,4 +50,4 @@ Read 5 items
 + 1.0, 1.1, 1.2, 1.3, 1.4, 1.9 <br>
 + centro, tijuca, ilha do governador, leblon, ipanema<br>
 + TRUE, TRUE, FALSE, FALSE, TRUE<br>
- 
+@[Programacao Python]({"stubs": ["./www/terminal"],"command": "sh /markdowns/www/terminal.sh" }) 
