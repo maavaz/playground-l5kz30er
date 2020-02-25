@@ -49,14 +49,13 @@ Matrizes são generalizações multidimensionais de vetores, isto é, possuem ma
 ``` R runnable
 # Criando a matriz 2x2 matx 
 matx <- matrix(c(1,2,3,4),ncol = 2)
-print(matx)
+print("\n",matx)
 
 # Criando a matriz 3x3 maty
 maty <- matrix(c(10,100,1000, 20, 200, 2000, 30, 300, 3000),ncol = 3)
-print(maty)
+print("\n\n",maty)
 
-maty <- matrix(c(10,100,1000, 20, 200, 2000, 30, 300, 3000),nrow = 3)
-print(maty)
+ 
 ```
 
 Para realizarmos o produto de 2 vetores utilizamos o operador **%*%**. Por exemplo:
