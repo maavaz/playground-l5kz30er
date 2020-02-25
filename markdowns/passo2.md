@@ -44,7 +44,7 @@ print(vresto)
 ```
 ### Matrizes
 
-Matrizes são generalizações multidimensionais de vetores, isto é, possuem mais de uma dimensão. São vetores que podem ser indexados por dois ou mais índices e serão impressos em especial maneiras. Em R as matrizes são criadas pela função **matrix()**.
+Matrizes são generalizações multidimensionais de vetores, isto é, possuem mais de uma dimensão. São vetores que podem ser indexados por dois ou mais índices e serão impressos em especial maneiras. Em R, as matrizes são criadas pela função **matrix()**,que possui dois parâmetrso: um parâmetro corresponde ao vetor de dados e o segundo parâmetro o número de colunas da matriz.
 
 ``` R runnable
 # Criando a matriz 2x2 matx 
