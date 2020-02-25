@@ -14,8 +14,11 @@ Entre outras coisas, <b>R</b>
 + Possui uma coleção grande, coerente e integrada de ferramentas intermediárias para análise de dados,
 + Possui recursos gráficos de ponta para análise de dados e exibição diretamente no computador ou em cópia impressa,
 + Possui uma linguagem de programação bem desenvolvida, simples e eficaz (chamada 'S') que inclui
-condicionais, loops, funções recursivas definidas pelo usuário e recursos de entrada e saída. .
+condicionais, loops, funções recursivas definidas pelo usuário e recursos de entrada e saída. <br>
 
-Porém, é importante salientar que esse material não irá esgotar todos os temas que serão apresentados e, por isso, aconselhamos, para quem desejar se aprofundar, pesquisar outros materiais.
-Diferentemente dos materiais introdutórios, esse material parte do pressuposto que o usuário já possua noções de desenvolvimento de programas, caso negativo sugerimos os materiais disponíveis em:
-
+Porém, é importante salientar que esse material não irá esgotar todos os temas que serão apresentados e, por isso, aconselhamos, para quem desejar se aprofundar, pesquisar outros materiais.<br>
+Diferentemente dos materiais introdutórios, esse material parte do pressuposto que o usuário já possua noções de desenvolvimento de programas, caso negativo sugerimos os materiais disponíveis em:</br>
++ Introdução a Programação Python
+https://www.codingame.com/playgrounds/7178bc199e90b50dc41b62bacdc65ffe47743/introducao-a-programacao-python---prof--marco-vaz/apresentacao
++ Introdução a Programação C
+https://www.codingame.com/playgrounds/eaacc1a8fe491aec7b8e6088d6daac5801342/introducao-a-programacao-c/apresentacao
