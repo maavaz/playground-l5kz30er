@@ -15,7 +15,9 @@ Essa é terceira linha
 > 
 ```
 
-A linguagem R permite que a leitura possa ser efetuada diretamente de arquivos (importação de dados). O método mais comum de importação de dados para o R, é utilizando a função read.table(). O formato geral do comando é apresentado abaixo:
+A linguagem R permite a leitura diretamente de arquivos (importação de dados) e o método mais comum de importação de dados é utilizando a **função read.table()**, cujo formato geral do comando é apresentado abaixo:<br>
+
+![excecao](/markdowns/imagens/readtable.png)
 
 
 Como exemplo, baixe o arquivo crabs.csv disponível aqui, e salve em um diretório chamado dados no seu diretório de trabalho.
