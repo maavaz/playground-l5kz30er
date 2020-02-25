@@ -1,4 +1,4 @@
-# Tipos de Dados em R
+# Estruturas de Dados em R
 
 Semelhante a diversas linguagens de programação, a linguagem R possui os seguintes tipos de dados mais comuns:
 + Vetor
@@ -13,9 +13,11 @@ Um vetor é coleção unidimensional homogênena de dados (números, caracteres,
 ``` R runnable
 # Criando o vetor vetx de números inteiros com 5 elementos
 vetx <- c(1,2,3,4,5)
+print(vetx)
 
 # Criando o vetor vletra de caracteres com 3 elementos
 
 vletra <- c('a', 'b', 'c')
+print(vletra)
 ```
 
