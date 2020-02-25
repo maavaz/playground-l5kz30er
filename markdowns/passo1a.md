@@ -43,7 +43,8 @@ Read 5 items
 > vetlet
 [1] "a" "e" "i" "o" "u"
 ```
-
+**OBS: O acesso aos elementos de uma lista de dados é feito através de índices. Em R, o primeiro elemento é o de índice 1.**
+<br>
 ### Exercício:<br>
 #### Utilize o seu IDE para criar um Script R que use a função **scan()** para ler do teclado os seguintes valores:<br>
 + 1, 3, 9, 13, 18, 20, 25, 32 <br>
