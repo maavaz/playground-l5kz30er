@@ -6,7 +6,7 @@ A linguagem R provê diferentes forma para realizar a entrada e saída de dados.
 
 O formato mais adequado para realizar a entrada de dados que pode ser efetuado através da importação de dados, quando estão armazenados em arquivos, ou digitados diretamente no R.
 
-A função **scan()** é utilizada para realizar a leitura dos dados diretamente do teclado, isto é, coloca o R em modo prompt onde o usuário deve digitar 1 ou mais dados (vetor), cada um seguido da tecla **Enter**. Para encerrar a entrada de dados basta digitar **Enter duas vezes consecutivas**. <br>
+A **função scan()** é utilizada para realizar a leitura dos dados diretamente do teclado, isto é, coloca o R em modo prompt onde o usuário deve digitar 1 ou mais dados (vetor), cada um seguido da tecla **Enter**. Para encerrar a entrada de dados basta digitar **Enter duas vezes consecutivas**. <br>
 **Formato Geral**<br>
 ![excecao](/markdowns/imagens/scan.png)
 ``` R
