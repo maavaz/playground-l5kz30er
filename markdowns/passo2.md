@@ -35,6 +35,6 @@ vetp =  veti + c(1, 1, 1)
 print(vetp)
 
 # Criando o vetor vreal do real com 4 elementos
-vreal = [5.7, 3.3, 6.5, 7.7] * 2
+vreal = c(5.7, 3.3, 6.5, 7.7) * 2
 print(vreal)
 ```
