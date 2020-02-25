@@ -40,4 +40,5 @@ print(vreal)
 
 # Criando um vetor de inteiros
 vresto = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
+print(vresto)
 ```
