@@ -11,7 +11,6 @@ A função **scan()** é utilizada para realizar a leitura dos dados diretamente
 ![excecao](/markdowns/imagens/scan.png)
 ``` R
 veta <- scan()
-
 1: 2
 2: 4
 3: 6
@@ -30,7 +29,8 @@ Read 4 items
 ```
 Por padrão, a função **scan()** espera que os dados digitados sejam numéricos, mas desejando digitar outros tipos de dados utilize a função com o parâmetro **what** que pode ter os seguintes tipos de dados: **logical, integer, numeric, complex, character, raw e list** <br>
 ![excecao](/markdowns/imagens/scanwhat.png)
-```` R
+<br>
+``` R
 > vetlet <-scan(what="character")
 1: a
 2: e
