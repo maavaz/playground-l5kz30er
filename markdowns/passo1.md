@@ -11,7 +11,7 @@ Para um programa, escrito em uma linguagem qualquer, manipular os dados, estes p
 Toda variável tem que ter:
 
 + <b>Um nome</b> - que é como ela será chamada ao guardar e recuperar a informação da memória. O nome deve seguir a regra e;
-+ <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se no conteúdo que foi a ela atribuído; e
++ <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se no conteúdo que foi a ela atribuído; 
 
 ### Comando de Atribuição
 
@@ -28,17 +28,17 @@ nome = "Marco"        # Criando a variável nome do tipo string
 assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
 ```
 ### Operadores aritméticos
-Os operadores utilizados nas expressões aritméticas, são:
-Operador&nbsp;&nbsp;&nbsp;Significado
-&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adição
-&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subtração
-&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiplicação
-&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divisão
-&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;potência
-&nbsp;exp()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exponencial
-&nbsp;sqrt()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raíz quadrada
-&nbsp;factorial()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fatorial
-&nbsp;log(); log2(); log10()&nbsp;&nbsp;&nbsp;logaritmos
+Os operadores utilizados nas expressões aritméticas, são:<br>
+Operador&nbsp;&nbsp;&nbsp;Significado<br>
+&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adição<br>
+&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subtração<br>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiplicação<br>
+&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divisão<br>
+&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;potência<br>
+&nbsp;exp()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exponencial<br>
+&nbsp;sqrt()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raíz quadrada<br>
+&nbsp;factorial()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fatorial<br>
+&nbsp;log(); log2(); log10()&nbsp;&nbsp;&nbsp;logaritmos<br>
 
 
 Ordens de execução
