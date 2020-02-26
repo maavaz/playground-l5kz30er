@@ -2,7 +2,7 @@
 
 Oi Pessoal,
 
-Estamos de volta para apresentar um material introdutório que achamos ser de bastante interesse das pessoas que querem iniciar na <b>programação R</b>, pois é uma linguagem que tem aplicação nas mais diversas áreas do conhecimento, tais como: atuária, economia, biologia, genética, ciências sociais. 
+Estamos de volta para apresentar um material introdutório que achamos ser de bastante interesse das pessoas que querem iniciar na <b>programação R</b>. A linguagem R é pode ser usada para manipulação de conjuntos de dados, para análises estatísticas e produção de documentos e para apresentações centradas em dados. É uma linguagem que tem aplicação nas mais diversas áreas do conhecimento, tais como: atuária, economia, biologia, genética, ciências sociais. 
 Com uma grande quantidade de “pacotes estatísticos” disponíveis é possível manipular dados, efetuar cálculos e exibir de gráficos de forma eficaz e armazená-los. Há uma coleção crescente de ferramentas de análise de dados com o “poder” de resolver problemas diversos. 
 
 Entre outras coisas, <b>R</b> 
