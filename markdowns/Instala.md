@@ -10,7 +10,7 @@ http:\\www.rstudio.com\products\rstudio\download\. Caso já possua o ambiente An
 ![rstudio](/markdowns/imagens/rstudio.png)
 
 
-### R
+### <b>R<b>
 O R pode ser instalado através da sua página oficial em http:\\www.r-project.org\, na opção CRAN (Comprehensive R Archive Network). 
 
 ![rstudio](/markdowns/imagens/r.png)
