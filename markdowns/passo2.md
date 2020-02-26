@@ -100,5 +100,5 @@ begin{pmatrix} a & b\\ c & d \end{pmatrix} + \begin{pmatrix} e & f\\ g & h \end{
 ```
 
 ```math
-begin{pmatrix} a & b\\ c & d \end{pmatrix}
+[■(a&b@c&d)]+ [■(e&f@g&h)]= [■(a+e&b+f@c+g&d+h)]
 ```
