@@ -1,4 +1,4 @@
-### Entrada de dados
+### <b>Entrada de dados</b>
 
 A **função readLines()** é utilizada na entrada de dados quando os dados estão na forma de texto (strings). Cada linha (n > 1) é armazenada como um elemento de vetor e, por isso, podem ser acessadas por índice. O formato geral da função é dado abaixo: <br>
 ![excecao](/markdowns/imagens/readlines.png)
@@ -41,7 +41,7 @@ No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura 
 ```
 **OBS:** Para arquivos **.csv** o R possui duas funções de leitura específicas: **read.csv() e read.csv2()**. Para mais detalhes, sugerimos acessar o help dos IDEs.
 
-### Entrada de dados de Planilhas MS-Excel
+### <b>Entrada de dados de Planilhas MS-Excel</b>
 
 Para importar dados diretamente de planilhas MS-Excel, o R disponibiliza alguns pacotes. No entanto, estes pacotes geralmente possuem particularidades quanto ao sistema operacional e demais dependências para funcionar corretamente. <br>
 Novamente, sugerimos pesquisar esse tipo função quando for necessário a leitura de dados de planilhas. 
