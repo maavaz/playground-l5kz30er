@@ -58,10 +58,22 @@ cat("\n")
 maty <- matrix(c(10,100,1000, 20, 200, 2000, 30, 300, 3000),ncol = 3)
 print(maty)
 
+#Pulando de Linha 
+cat("\n")
+
 # Criando uma matriz 3 X 3 com números inteiros gerados de 1 até 9 
 
-matz <- matrix(data = 1:9, nrow=3 ,ncol = 3)
+matx <- matrix(data = 1:9, nrow=3 ,ncol = 3)
+print(matx) 
+
+#Pulando de Linha 
+cat("\n")
+
+# Criando a matriz 3 X 3 com números inteiros gerados de 1 até 9, mas  organizados por linha  (byrow)
+
+matz <- matrix(data = 1:9, nrow=3 ,ncol = 3, byrow=TRUE)
 print(matz) 
+
 ```
 
 Para realizarmos o produto de 2 vetores utilizamos o operador **%*%**. Por exemplo:
