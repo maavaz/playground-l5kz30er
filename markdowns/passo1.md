@@ -45,10 +45,10 @@ Os operadores utilizados nas expressões aritméticas, são:<br>
 
 #### Exercícios
 Utilize a console do R para executar as seguintes equações:<br>
-<b>Calcule a seguinte equação: 32 + 162 − 20 / 2<br>
-calcule a raiz quadrada do resultado anterior <br>
-Qual o resultado da expressão e −224 − 14!?<br>
-E do logaritmo desta expressão?<br>
+<b>a) 32 + 162 − 20 / 2<br>
+b) raiz quadrada do resultado de a) <br>
+c) −24 − 6!?<br>
+d) logaritmo de c)?<br>
 </b>
 ### Executando Comandos em R
 
