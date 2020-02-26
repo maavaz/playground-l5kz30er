@@ -1,6 +1,7 @@
 ### Saída de dados
 
-A função **print()** é uma das principais funções para exibir valores na console do R. O formato geral da função é:
+A função **print()** é uma das principais funções para exibir valores na console do R.<br>
+O formato geral da função é:<br>
                         ![excecao](/markdowns/imagens/printR.png)
 
 
