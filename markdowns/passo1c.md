@@ -1,6 +1,7 @@
 ### Saída de dados
 
-
+A função **print()** é uma das principais funções para exibir valores na console do R. O formato geral da função é:
+                        ![excecao](/markdowns/imagens/printR.png)
 
 
 Usando a função write.table()
