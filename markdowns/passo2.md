@@ -41,6 +41,10 @@ print(vreal)
 # Criando um vetor de inteiros onde os elementos são potencias de base 2
 vpot = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
 print(vpot)
+
+# produto de 2 matrizes unidimensionais
+vprod = c(1, 2, 3) %*% c(2, 3, 4)
+
 ```
 ### <b>Matrizes</b>
 
