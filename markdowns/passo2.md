@@ -44,6 +44,7 @@ print(vpot)
 
 # produto de 2 matrizes unidimensionais
 vprod = c(1, 2, 3) %*% c(2, 3, 4)
+print(vprod)
 
 ```
 ### <b>Matrizes</b>
