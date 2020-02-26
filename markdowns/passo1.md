@@ -43,8 +43,8 @@ Os operadores utilizados nas expressões aritméticas, são:<br>
 
 **OBS: A ordem de execução dos operadores tem o parênteses como a maior prioridade, seguido de Multiplicação (atenção !!), divisão, adição e a subtração como sendo a de menor Prioridade**<br>
 
-<b>*Exercícios*</b><br>
-Utilize a console do R para executar as seguintes equações:<br>
+<b>Exercícios</b><br>
+*Utilize a console do R para executar as seguintes equações:*<br>
 <b>a) 32 + 162 − 20 / 2 ?<br>
 b) raiz quadrada do resultado de a) ?<br>
 c) −24 − 6! ?<br>
