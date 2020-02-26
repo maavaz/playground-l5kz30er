@@ -2,7 +2,7 @@
 
 A linguagem R provê diferentes forma para realizar a entrada e saída de dados.
 
-### Entrada de dados
+### <b>Entrada de dados</b>
 
 O formato mais adequado para realizar a entrada de dados que pode ser efetuado através da importação de dados, quando estão armazenados em arquivos, ou digitados diretamente no R.
 
@@ -45,7 +45,7 @@ Read 5 items
 ```
 **OBS: O acesso aos elementos de uma lista de dados é feito através de índices. Em R, o primeiro elemento é o de índice 1.**
 <br>
-### Exercício:<br>
+### <b>Exercício:</b><br>
 #### Utilize o seu IDE para criar um Script R que use a função **scan()** para ler do teclado os seguintes valores:<br>
 + 1, 3, 9, 13, 18, 20, 25, 32 <br>
 + 1.0, 1.1, 1.2, 1.3, 1.4, 1.9 <br>
