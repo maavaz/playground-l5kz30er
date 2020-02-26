@@ -27,7 +27,7 @@ nome = "Marco"        # Criando a variável nome do tipo string
 
 assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
 ```
-### Operadores aritméticos
+### <b>Operadores aritméticos</b>
 Os operadores utilizados nas expressões aritméticas, são:<br>
 <b>Operador&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Significado<br>
 &nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adição<br>
