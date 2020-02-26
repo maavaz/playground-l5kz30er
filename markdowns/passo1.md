@@ -27,6 +27,29 @@ nome = "Marco"        # Criando a variável nome do tipo string
 
 assign("preco", 1.99) # Criando a variável preco do tipo float(Real)
 ```
+### Operadores aritméticos
+Os operadores utilizados nas expressões aritméticas, são:
+Operador&nbsp;&nbsp;&nbsp;Significado
+&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adição
+&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subtração
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiplicação
+&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divisão
+&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;potência
+&nbsp;exp()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exponencial
+&nbsp;sqrt()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raíz quadrada
+&nbsp;factorial()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fatorial
+&nbsp;log(); log2(); log10()&nbsp;&nbsp;&nbsp;logaritmos
+
+
+Ordens de execução
+As operações são realizadas sempre seguindo as prioridades:
+
+De dentro para fora de parênteses ()
+Multiplicação e divisão
+Adição e subtração
+
+
+
 ### Executando Comandos em R
 
 Os comandos em R podem ser executados diretamente na console do editor ou através de um arquivo de script (**extensão .R**) que pode ser executado comando a comando. Caso deseje executar todos os comandos do script na sequência, utilizar a função **source()**. O formato geral simplificado do comando é apresentado abaixo:</br>
