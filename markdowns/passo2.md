@@ -6,7 +6,7 @@ Semelhante a diversas linguagens de programação, a linguagem R possui os segui
 + Lista 
 + Dataframe
 
-### Vetor
+### <b>Vetor</b>
 
 Um vetor é coleção unidimensional homogênena de dados (números, caracteres, strings). Para criar um vetor, use a função **c()**, com um número arbitrário de argumentos.
 
@@ -23,7 +23,7 @@ print(vletra)
 assign("vreal", c(5.7, 3.3, 6.5, 7.7))
 print(vreal)
 ```
-### Operações com vetores
+### <b>Operações com vetores</b>
 Podemos fazer operações aritméticas com vetores, como somar, subtrair, multiplicar e dividir.Essas operações são efetuadas elemento a elemento.
 ``` R runnable
 # Criando o vetor de números inteiros ímpares
@@ -42,7 +42,7 @@ print(vreal)
 vresto = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
 print(vresto)
 ```
-### Matrizes
+### <b>Matrizes</b>
 
 Matrizes são generalizações multidimensionais de vetores, isto é, possuem mais de uma dimensão. São vetores que podem ser indexados por dois ou mais índices e serão impressos em especial maneiras. Em R, as matrizes são criadas pela função **matrix()** que possui dois parâmetros: um parâmetro corresponde ao vetor de dados e o segundo parâmetro o número de colunas da matriz.
 
