@@ -30,17 +30,29 @@ Podemos fazer operações aritméticas com vetores, como somar, subtrair, multip
 veti <- c(1,3,5)
 print(veti)
 
+#Pulando de Linha 
+cat("\n")
+
 # Criando o vetor de números pares a partir da operação soma
 vetp =  veti + c(1, 1, 1)
 print(vetp)
+
+#Pulando de Linha 
+cat("\n")
 
 # Criando o vetor vreal do real com 4 elementos
 vreal = c(5.7, 3.3, 6.5, 7.7) * 2
 print(vreal)
 
+#Pulando de Linha 
+cat("\n")
+
 # Criando um vetor de inteiros onde os elementos são potencias de base 2
 vpot = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
 print(vpot)
+
+#Pulando de Linha 
+cat("\n")
 
 # produto de 2 matrizes unidimensionais
 vprod = c(1, 2, 3) %*% c(2, 3, 4)
@@ -83,6 +95,5 @@ print(matz)
 
 ```
 
-Para realizarmos o produto de 2 vetores utilizamos o operador **%*%**. Por exemplo:
 
 
