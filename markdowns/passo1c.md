@@ -4,7 +4,9 @@ A função **print()** é uma das principais funções para exibir valores na co
 O formato geral da função é:<br>
                         ![excecao](/markdowns/imagens/printR.png)
 
-
+A função **cat()** mostra a saída no console dos argumentos depois de transformá-los em caracteres.<br>
+O formato geral é:<br>
+                         ![excecao](/markdowns/imagens/cat.png)
 Usando a função write.table()
 Para exportar objetos do R, usamos a função write.table(), que possui argumentos parecidos com aqueles da função read.table().
 
