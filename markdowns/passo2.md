@@ -100,5 +100,5 @@ begin{pmatrix} a & b\\ c & d \end{pmatrix} + \begin{pmatrix} e & f\\ g & h \end{
 ```
 
 ```math
-x_{1,2} = \frac{- b \pm \sqrt{\Delta}}{2a}
+begin{pmatrix} a & b\\ c & d \end{pmatrix}
 ```
