@@ -1,12 +1,17 @@
 ### Saída de dados
-
+As funções de saída de dados em R mostram uma série de argumentos. Aqui, apenas mostraremos as funções na sua forma mais básica. Sugerimos acessar o help() na console para ver as diversas formas de utilização dessas funções.<br>
 A função **print()** é uma das principais funções para exibir valores na console do R.<br>
 O formato geral da função é:<br>
                         ![excecao](/markdowns/imagens/printR.png)
 
 A função **cat()** mostra a saída no console dos argumentos depois de transformá-los em caracteres.<br>
 O formato geral é:<br>
-                         ![excecao](/markdowns/imagens/cat.png)
+                         ![excecao](/markdowns/imagens/cat.png) <br>
+                         
+A função **format()** mostra na console uma saída formatada dos dados.<br>
+O formato geral é:
+![excecao](/markdowns/imagens/formatR.png) <br>
+
 Usando a função write.table()
 Para exportar objetos do R, usamos a função write.table(), que possui argumentos parecidos com aqueles da função read.table().
 
