@@ -1,4 +1,4 @@
-### Saída de dados
+### <b>Saída de dados</b>
 As funções de saída de dados em R mostram uma série de argumentos. Aqui, apenas mostraremos as funções na sua forma mais básica. Sugerimos acessar o help() na console para ver as diversas formas de utilização dessas funções.<br>
 A função **print()** é uma das principais funções para exibir valores na console do R.<br>
 O formato geral da função é:<br>
