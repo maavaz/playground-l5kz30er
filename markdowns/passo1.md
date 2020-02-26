@@ -46,7 +46,7 @@ Os operadores utilizados nas expressões aritméticas, são:<br>
 <b>Exercícios</b><br>
 *Utilize a console do R para executar as seguintes equações:*<br>
 <b>a) 30 + 61 − 20 / 2 ?<br>
-b) raiz quadrada do resultado de a) ?<br>
+b) raiz quadrada da expressão de a) ?<br>
 c) −24 − 6! ?<br>
 d) logaritmo de c) ?<br>
 </b>
