@@ -41,13 +41,7 @@ Os operadores utilizados nas expressões aritméticas, são:<br>
 &nbsp;log(); log2(); log10()&nbsp;&nbsp;logaritmos<br>
 </b>
 
-#### Ordens de execução
-<b>As operações são realizadas sempre seguindo as prioridades:<br>
-Maior prioridade  parênteses ()<br>
-                  Multiplicação e divisão<br>
-                  Adição e <br>
-menor Prioridade  subtração<br>
-</b>
+**OBS: A ordem de execução dos operadores é a mesma da matemática, sendo o parênteses a maior prioridade, seguido de Multiplicação, divisão, Adição e a subtração como sendo a de menor Prioridade**<br>
 
 
 ### Executando Comandos em R
