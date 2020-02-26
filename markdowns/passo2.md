@@ -38,9 +38,9 @@ print(vetp)
 vreal = c(5.7, 3.3, 6.5, 7.7) * 2
 print(vreal)
 
-# Criando um vetor de inteiros
-vresto = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
-print(vresto)
+# Criando um vetor de inteiros onde os elementos são potencias de base 2
+vpot = c(2, 2, 2, 2) ** c(2, 3, 4, 5)
+print(vpot)
 ```
 ### <b>Matrizes</b>
 
