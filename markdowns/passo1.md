@@ -43,13 +43,13 @@ Os operadores utilizados nas expressões aritméticas, são:<br>
 
 **OBS: A ordem de execução dos operadores tem o parênteses como a maior prioridade, seguido de Multiplicação (atenção !!), divisão, adição e a subtração como sendo a de menor Prioridade**<br>
 
-### Exercícios
-Utilize a console do R para executar as seguintes equações:
-Calcule a seguinte equação: 32 + 162 − 20 / 2<br>
+#### Exercícios
+Utilize a console do R para executar as seguintes equações:<br>
+<b>Calcule a seguinte equação: 32 + 162 − 20 / 2<br>
 calcule a raiz quadrada do resultado anterior <br>
 Qual o resultado da expressão e −224 − 14!?<br>
 E do logaritmo desta expressão?<br>
-
+</b>
 ### Executando Comandos em R
 
 Os comandos em R podem ser executados diretamente na console do editor ou através de um arquivo de script (**extensão .R**) que pode ser executado comando a comando. Caso deseje executar todos os comandos do script na sequência, utilizar a função **source()**. O formato geral simplificado do comando é apresentado abaixo:</br>
