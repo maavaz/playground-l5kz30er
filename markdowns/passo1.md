@@ -13,6 +13,8 @@ Toda variável tem que ter:
 + <b>Um nome</b> - que é como ela será chamada ao guardar e recuperar a informação da memória. O nome deve seguir a regra e;
 + <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se no conteúdo que foi a ela atribuído; 
 
+**OBS:** O comando **ls()** lista todas as variáveis/objetos criados pelo usuário em uma sessão. O comando **ls.str()** além de exibir as variáveis, exibe também a sua estrutura e seu conteúdo.
+
 ### <b>Comando de Atribuição</b>
 
 O comando de atribuição tem a função de mover um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:<br>
