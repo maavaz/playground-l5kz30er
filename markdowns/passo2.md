@@ -8,7 +8,7 @@ Semelhante a diversas linguagens de programação, a <b>linguagem R</b> possui o
 
 ### <b>Vetor</b>
 
-Um vetor é coleção unidimensional homogênena de dados (números, caracteres, strings). Para criar um vetor, use a função **c()**, com um número arbitrário de argumentos.
+Um vetor é coleção unidimensional homogênena de dados (números, caracteres, strings). Para criar um vetor, use a **função c()**, com um número arbitrário de argumentos.
 
 ``` R runnable
 # Criando o vetor vetx de números inteiros com 5 elementos
