@@ -1,7 +1,7 @@
 # Estruturas de Dados em R
 
 Semelhante a diversas linguagens de programação, a linguagem R possui os seguintes tipos de dados mais comuns:
-+ Vetor
++ <b>Vetor</b>
 + Matriz
 + Lista 
 + Dataframe
