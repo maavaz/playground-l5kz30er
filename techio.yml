@@ -16,3 +16,5 @@ plan:
   statement: markdowns/passo1c.md     
 - title: Estruturas de dados em R
   statement: markdowns/passo2.md
+- title: Matrizes
+  statement: markdowns/passo3.md  
