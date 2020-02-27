@@ -1,7 +1,7 @@
 ### <b>Operações com Matrizes</b>
 
 ```math
- $\begin{matrix} a & b \\ c & d \end{matrix}$
+ \begin{matrix} a & b \\ c & d \end{matrix}
 ```` 
 
 
