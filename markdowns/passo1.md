@@ -1,6 +1,6 @@
 # Primeiros passos
 **R** é uma linguagem de expressão com uma sintaxe muito simples. Como na linguagem Python, **R** faz distinção entre maiúsculas e minúsculas, portanto **A** e **a** são símbolos diferentes e se referem a variáveis diferentes. <br>
-Normalmente, os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns países isso inclui letras acentuadas) mais **.(ponto)** e **_ (sublinhado)**, com a restrição de que um nome comece (primeiro caracter) com **.(ponto)** ou **letra** e, se começar com **.(ponto)**, o segundo caracter **não** pode ser um **dígito**. Os nomes possuem tamanho ilimitado.
+
 
 ### <b>Variáveis</b>
 
@@ -10,8 +10,11 @@ Para um programa, escrito em uma linguagem qualquer, manipular os dados, estes p
 
 Toda variável tem que ter:
 
-+ <b>Um nome</b> - que é como ela será chamada ao guardar e recuperar a informação da memória. O nome deve seguir a regra e;
++ <b>Um nome</b> - que é como ela será chamada ao guardar e recuperar a informação da memória. O nome deve seguir a regra descrita abaixo e;
 + <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se no conteúdo que foi a ela atribuído; 
+
+####<b>Regra de definição de nomes de variáveis:</b><br>
+Os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns países isso inclui letras acentuadas) mais **.(ponto)** e **_ (sublinhado)**, com a restrição de que um nome comece (primeiro caracter) com **.(ponto)** ou **letra** e, se começar com **.(ponto)**, o segundo caracter **não** pode ser um **dígito**. Os nomes possuem tamanho ilimitado.
 
 **OBS:** O comando **ls()** lista todas as variáveis/objetos criados pelo usuário em uma sessão. O comando **ls.str()** além de exibir as variáveis, exibe também a sua estrutura e seu conteúdo.
 
