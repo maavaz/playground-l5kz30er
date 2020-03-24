@@ -1,6 +1,6 @@
 # Primeiros passos
 **R** é uma linguagem de expressão com uma sintaxe muito simples. Como na linguagem Python, **R** faz distinção entre maiúsculas e minúsculas, portanto **A** e **a** são símbolos diferentes e se referem a variáveis diferentes. <br>
-Normalmente, os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns países isso inclui letras acentuadas) mais **.(ponto)** e **_ (sublinhado)**, com a restrição de que um nome comece (primeiro caracter) com **.(ponto)** ou **letra** e, se começar com **.(ponto)**, o segundo caracter não deve ser um dígito. Os nomes possuem tamanho ilimitado.
+Normalmente, os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns países isso inclui letras acentuadas) mais **.(ponto)** e **_ (sublinhado)**, com a restrição de que um nome comece (primeiro caracter) com **.(ponto)** ou **letra** e, se começar com **.(ponto)**, o segundo caracter **não** pode ser um **dígito**. Os nomes possuem tamanho ilimitado.
 
 ### <b>Variáveis</b>
 
