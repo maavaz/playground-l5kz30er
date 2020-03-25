@@ -10,8 +10,8 @@ Para um programa, escrito em uma linguagem qualquer, manipular os dados, estes p
 
 Toda variável tem que ter:
 
-+ <b>Um nome</b> - que é como ela será chamada ao guardar e recuperar a informação da memória. O nome deve seguir a regra descrita abaixo e;
-+ <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se no conteúdo que foi a ela atribuído; 
++ <b>Um nome</b> - é como a variável será chamada ao guardar e recuperar os dados da memória. O nome deve seguir a regra descrita abaixo e;
++ <b>Um tipo</b> - esse tipo (inteiro, real etc.) é definido quando variável é criada, baseando-se nos dados a ela atribuído; 
 
 ####<b>Regra de definição de nomes de variáveis:</b><br>
 Os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns países isso inclui letras acentuadas) mais **.(ponto)** e **_ (sublinhado)**, com a restrição de que um nome comece (primeiro caracter) com **.(ponto)** ou **letra** e, se começar com **.(ponto)**, o segundo caracter **não** pode ser um **dígito**. Os nomes possuem tamanho ilimitado.
@@ -20,7 +20,7 @@ Os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns pa�
 
 ### <b>Comando de Atribuição</b>
 
-O comando de atribuição tem a função de mover um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:<br>
+O comando de atribuição tem a função de mover (atribuir) um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:<br>
 ![atribuicao](/markdowns/imagens/atribuicao.png)
 
 ``` R
