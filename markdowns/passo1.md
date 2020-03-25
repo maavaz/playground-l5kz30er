@@ -57,6 +57,6 @@ d) logaritmo de c) ?<br>
 </b>
 ### <b>Executando Comandos em R</b>
 
-Os comandos em R podem ser executados diretamente na console do editor ou através de um arquivo de script (**extensão .R**) que pode ser executado comando a comando. Caso deseje executar todos os comandos do script na sequência, utilizar a função **source()**. O formato geral simplificado do comando é apresentado abaixo:</br>
+Os comandos em R podem ser executados diretamente na console do editor ou através de um arquivo de script (**extensão .R**) que pode ser executado comando a comando ou, caso deseje executar todos os comandos do script na sequência, utilizar a função **source()**. O formato geral simplificado do comando é apresentado abaixo:</br>
 ![excecao](/markdowns/imagens/source.png)
 
