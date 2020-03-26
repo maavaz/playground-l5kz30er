@@ -35,4 +35,20 @@ sub_mat =  Mat1 - Mat
 print(sub_mat)
 
 ```
+### Multiplicação por um escalar
+A operação de subtração de matrizes é semelhante a soma, isto é, dada duas matrizes de mesma dimensão, a subtração de ambas resulta numa matriz cujos elementos são a subtração dos elementos das matrizes originais, conforme exibido abaixo. <br>
 
+```math
+ \begin  e .  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} e.x & e.y \\ e.w & e.z \end{pmatrix}
+```
+#### <b>Exemplo:</b><br>
+``` R runnable
+Mat = matrix(c(1, 2, 3, 4), nrow = 2)
+
+Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
+
+sub_mat =  Mat1 - Mat
+
+print(sub_mat)
+
+```
