@@ -29,8 +29,8 @@ No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura 
 > tabela <- read.table("teste.txt", header=TRUE,sep=";")
 > tabela
   campo1        campo2        campo3
-1      1  teste_campo1  teste_campo3
-2      2 teste1_campo1 teste1_campo3
+1     1     teste_campo1    teste_campo3
+2     2    teste1_campo1   teste1_campo3
 
 # A função str() exibe a estrutura do DataFrame tabela.
 > str(tabela)
@@ -41,7 +41,7 @@ No exemplo abaixo, utilizamos a **função readtable()** para efetuar a leitura 
 ```
 **OBS:** Para arquivos **.csv** o R possui duas funções de leitura específicas: **read.csv() e read.csv2()**. Para mais detalhes, sugerimos acessar o help dos IDEs.
 
-### <b>Entrada de dados de Planilhas MS-Excel</b>
+### <b>Entrada de  dados de Planilhas MS-Excel</b>
 
 Para importar dados diretamente de planilhas MS-Excel, o R disponibiliza alguns pacotes. No entanto, estes pacotes geralmente possuem particularidades quanto ao sistema operacional e demais dependências para funcionar corretamente. <br>
 Novamente, sugerimos pesquisar esse tipo função quando for necessário a leitura de dados de planilhas. 
