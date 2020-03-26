@@ -39,7 +39,7 @@ print(sub_mat)
 A operação de subtração de matrizes é semelhante a soma, isto é, dada duas matrizes de mesma dimensão, a subtração de ambas resulta numa matriz cujos elementos são a subtração dos elementos das matrizes originais, conforme exibido abaixo. <br>
 
 ```math
-  e .\begin \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} e.x & e.y \\ e.w & e.z \end{pmatrix}
+\begin \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} e.x & e.y \\ e.w & e.z \end{pmatrix}
 ```
 #### <b>Exemplo:</b><br>
 ``` R runnable
