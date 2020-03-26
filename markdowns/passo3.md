@@ -30,9 +30,9 @@ Mat = matrix(c(1, 2, 3, 4), nrow = 2)
 
 Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
 
-soma_mat =  Mat1 - Mat
+sub_mat =  Mat1 - Mat
 
-print(soma_mat)
+print(sub_mat)
 
 ```
 
