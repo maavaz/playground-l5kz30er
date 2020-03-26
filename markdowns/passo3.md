@@ -52,6 +52,6 @@ prod_mat =  e * Mat
 prod_mat1 = e * Mat1
 
 print(prod_mat)
-print()
+print('\n')
 print(prod_mat1)
 ```
