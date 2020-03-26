@@ -22,7 +22,7 @@ print(soma_mat)
 A operação de subtração de matrizes é semelhante a soma, isto é, dada duas matrizes de mesma dimensão, a subtração de ambas resulta numa matriz cujos elementos são a subtração dos elementos das matrizes originais, conforme exibido abaixo. <br>
 
 ```math
- \begin{pmatrix}  a & b \\ c & d  \end{pmatrix}  +  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} a-x & b-y \\ c-w & d-z \end{pmatrix}
+ \begin{pmatrix}  a & b \\ c & d  \end{pmatrix}  -  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} a-x & b-y \\ c-w & d-z \end{pmatrix}
 ```
 #### <b>Exemplo:</b><br>
 ``` R runnable
