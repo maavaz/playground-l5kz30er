@@ -36,19 +36,22 @@ print(sub_mat)
 
 ```
 ### Multiplicação por um escalar
-A operação de subtração de matrizes é semelhante a soma, isto é, dada duas matrizes de mesma dimensão, a subtração de ambas resulta numa matriz cujos elementos são a subtração dos elementos das matrizes originais, conforme exibido abaixo. <br>
+Dada uma matriz de qualquer dimensão, a multiplicação por um escalar e, tal que e ∈ R, resulta em uma matriz onde seus elementos correspondem ao produto do escalar por cada um dos elementos da matriz. <br>
 
 ```math
  e . \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} e.x & e.y \\ e.w & e.z \end{pmatrix}
 ```
 #### <b>Exemplo:</b><br>
 ``` R runnable
+e <- 5
 Mat = matrix(c(1, 2, 3, 4), nrow = 2)
 
 Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
 
-sub_mat =  Mat1 - Mat
+prod_mat =  e * Mat
+prod_mat1 = e * Mat1
 
-print(sub_mat)
-
+print(prod_mat)
+print('---------------')
+print(prod_mat)
 ```
