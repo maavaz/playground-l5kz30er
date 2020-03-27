@@ -8,8 +8,6 @@ Em R, a multiplicação matricial é representada pelo operador %*%, respeitando
 ```math
 \begin{pmatrix} a & b\\ c & d \end{pmatrix} \cdot \begin{pmatrix} x & y\\ w & z \end{pmatrix} = \begin{pmatrix} a \cdot x + b \cdot w & a \cdot y + b \cdot z\\ c \cdot x + d \cdot w & c \cdot y + d \cdot z \end{pmatrix}
 
-<br></br>
-
 
 ```
 #### <b>Exemplo:</b><br>
