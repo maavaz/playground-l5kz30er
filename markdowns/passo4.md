@@ -5,6 +5,9 @@ Essa operação corresponde a multiplicação entre uma matriz (n x m) por uma m
 
 ```math
 \begin{pmatrix} a & b\\ c & d \end{pmatrix} \cdot \begin{pmatrix} x & y\\ w & z \end{pmatrix} = \begin{pmatrix} a \cdot x + b \cdot w & a \cdot y + b \cdot z\\ c \cdot x + d \cdot w & c \cdot y + d \cdot z \end{pmatrix}
+
+Em R, a multiplicação matricial é representada pelo operador %*%, respeitando a equidade entre o número de colunas da primeira matriz e o número de linhas da matriz da segunda.
+
 ```
 #### <b>Exemplo:</b><br>
 ``` R runnable
@@ -12,8 +15,8 @@ Mat = matrix(c(1, 2, 3, 4), nrow = 2)
 
 Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
 
-soma_mat =  Mat + Mat1
+mult_mat =  Mat %% Mat1
 
-print(soma_mat)
+print(mult_mat)
 
 ```
