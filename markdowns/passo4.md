@@ -7,7 +7,7 @@ Essa operação corresponde a multiplicação entre uma matriz (n x m) por uma m
  \begin{pmatrix}  a & b \\ c & d  \end{pmatrix}  +  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} a+x & b+y \\ c+w & d+z \end{pmatrix}
 ```
 ```math
-\begin{pmatrix} a & b\\ c & d \end{pmatrix} \cdot \begin{pmatrix} x & y\\ g & h \end{pmatrix} = \begin{pmatrix} a \cdot e + b \cdot g & a \cdot y + b \cdot h\\ c \cdot x + d \cdot g & c \cdot y + d \cdot h \end{pmatrix}
+\begin{pmatrix} a & b\\ c & d \end{pmatrix} \cdot \begin{pmatrix} x & y\\ w & z \end{pmatrix} = \begin{pmatrix} a \cdot x + b \cdot w & a \cdot y + b \cdot z\\ c \cdot x + d \cdot w & c \cdot y + d \cdot z \end{pmatrix}
 ```
 #### <b>Exemplo:</b><br>
 ``` R runnable
