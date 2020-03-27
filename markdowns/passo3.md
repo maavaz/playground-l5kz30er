@@ -60,7 +60,7 @@ print(prod_mat1)
 A operação de soma de matrizes segue a mesma sintaxe que na operação entre escalares, isto é, dada duas matrizes de mesma dimensão, a soma de ambas resulta numa matriz cujos elementos são a soma dos elementos das matrizes originais, conforme exibido abaixo. <br>
 
 ```math
- \begin{pmatrix}  a & b \\ c & d  \end{pmatrix}  °  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} a*x & b*y \\ c*w & d*z \end{pmatrix}
+ \begin{pmatrix}  a & b \\ c & d  \end{pmatrix}  °  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} a.x & b.y \\ c.w & d.z \end{pmatrix}
 ```
 
 #### <b>Exemplo:</b><br>
