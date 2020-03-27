@@ -16,7 +16,7 @@ Mat = matrix(c(1, 2, 3, 4), nrow = 2)
 
 Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
 
-mult_mat =  Mat %% Mat1
+mult_mat =  Mat %*% Mat1
 
 print(mult_mat)
 
