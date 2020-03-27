@@ -49,7 +49,7 @@ Mat = matrix(c(1, 2, 3, 4), nrow = 2)
 Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
 
 prod_mat =  e * Mat
-prod_mat1 = e * Mat1
+prod_mat1 = Mat1 - e
 
 print(prod_mat)
 
