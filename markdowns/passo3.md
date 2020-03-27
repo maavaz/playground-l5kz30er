@@ -57,7 +57,7 @@ print(prod_mat1)
 ```
 
 ### Multiplicação entre Matrizes
-A operação de soma de matrizes segue a mesma sintaxe que na operação entre escalares, isto é, dada duas matrizes de mesma dimensão, a soma de ambas resulta numa matriz cujos elementos são a soma dos elementos das matrizes originais, conforme exibido abaixo. <br>
+A operação de multiplicação entre matrizes resulta em uma matriz onde os elementos correspondem ao produto dos elementos equivalentes das duas matrizes de mesmas dimensões. <br>
 
 ```math
  \begin{pmatrix}  a & b \\ c & d  \end{pmatrix}  °  \begin{pmatrix} x & y \\ w & z \end{pmatrix}  =    \begin{pmatrix} a.x & b.y \\ c.w & d.z \end{pmatrix}
