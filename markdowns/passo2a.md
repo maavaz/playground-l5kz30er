@@ -3,25 +3,32 @@
 ### Nomeando os elementos do vetor
 O R permite a associação de nomes aos elementos de um vetor.
  
-#### Exemplos: 
-> v = c("Mary", "Sue") 
-> v 
-[1] "Mary" "Sue"
-We now name the first member as First, and the second as Last.
+#### Exemplos:
+``` R runnable
 
-> names(v) = c("First", "Last") 
-> v 
- First   Last 
-"Mary"  "Sue"
-Then we can retrieve the first member by its name.
+vsaldo = c(100, 2000, -300, 3000, -200, 1200, 250, -100, 3200, 200, 1400, -150) 
 
-> v["First"] 
-[1] "Mary"
-Furthermore, we can reverse the order with a character string index vector.
+# nomeia cada elemento de vsaldo
+names(vsaldo) = c("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez") 
+ 
+print (vsaldo)
 
-> v[c("Last", "First")] 
-  Last  First 
- "Sue" "Mary"
+#Pula Linha
+cat("\n")
+
+# seleciona o saldo do mês de março ("mar")
+saldo <- vsaldo["mar"] 
+
+print(saldo)
+
+#Pula Linha
+cat("\n")
+
+# Seleção na ordem inversa
+ultimo <- v[c("dez", "nov", "out")] 
+   
+print(saldo)
+```
 
 
 Logical Index Vector
