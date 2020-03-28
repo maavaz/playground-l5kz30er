@@ -80,33 +80,35 @@ Um vetor pode ser subdividido/fatiado (Slice) utilizando os índices numéricos 
 
 ```R runnable
 
-# Extrair do vetor s os elementos da 2º e 3º posições
+vchar = c("aa", "bb", "cc", "dd", "ee") 
 
-s = c("aa", "bb", "cc", "dd", "ee") 
-print( s[c(2, 3)]) 
+# Extrair do vetor vchar os elementos da 2º e 3º posições
 
+resp <- vchar[c(2, 3)] 
+print(resp)
+
+#Pulando de Linha 
 cat("\n")
 
 # Extração duplicando os elementos duplicados (extrai os elementos 1 ou + vezes. Extrai o elemento da 3ª posição 2 x
 
-print(s[c(2, 3, 3)]) 
+resp <-vchar[c(2, 3, 3)]
+print(resp)
 
+#Pulando de Linha 
 cat("\n")
 
-Out-of-Order Indexes
-The index vector can even be out-of-order. Here is a vector slice with the order of first and second members reversed.
+# Os elementos podem ser recuperados fora da ordem do vetor vchar
 
-> s[c(2, 1, 3)] 
-[1] "bb" "aa" "cc"
-Range Index
-To produce a vector slice between two indexes, we can use the colon operator ":". This can be convenient for situations involving large vectors.
+resp<-char[c(2, 1, 3)] 
+print(resp)
 
-> s[2:4] 
-[1] "bb" "cc" "dd"
-More information for the colon operator is available in the R documentation.
+#Pulando de Linha 
+cat("\n")
 
-> help(":")
-
-
+# recuperando intervalo de valores através do operador : 
+resp <- vchar[2:4] 
+print(resp)
+```
 
 
