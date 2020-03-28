@@ -106,22 +106,25 @@ Dar nomes as linhas e colunas de uma matriz facilita a utilização e leitura do
 ``` R runnable
 
 Mat = matrix(c(1000, -200, 120,-100, 250, -20, 300, 1000, 2000), ncol=3, nrow = 3)
+
 # Renomeando as colunas e linhas da matriz
 colnames(Mat) <- c("Jan", "Fev", "Mar")
 rownames(Mat) <- c("Ana", "André", "Carlos")
-print(cmat)
+
+print(Mat)
+cat("\n")
 
 # Para Exibir apenas as transaçoes realizadas pelo cliente André
 
 trans = Mat["André",]
 
 print(trans)
-
+cat("\n")
 # realiza a soma das transações por correntista (soma das linhas)
 corr = rowSums(Mat)
 
 print(corr)
-
+cat("\n")
 # realiza a soma das transações a cada mês (soma das colunas)
 mes = colSums(Mat)
 
