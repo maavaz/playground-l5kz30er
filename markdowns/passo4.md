@@ -64,3 +64,16 @@ print(Mat)
 print(trans_mat)
 
 ```
+### Inversa de uma Matriz
+
+A inversa de uma matriz quadrada qualquer cujo determinante seja não nulo, A<sub>n,n</sub>, é uma matriz de mesmas dimensões que atenda a seguinte condição:
+```math
+A^{-1} \cdot A = I
+```
+
+
+Onde, I é a matriz identidade de mesma dimensão que a matriz A.
+
+
+
+A inversa de uma matriz é estimada pela função solve(), mesma função utilizada para resolução de sistemas de equações em R.
