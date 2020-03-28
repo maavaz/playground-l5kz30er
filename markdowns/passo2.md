@@ -76,18 +76,23 @@ print(vprod)
 
 ### Fatiamento (Slice) em vetores
 
-A new vector can be sliced from a given vector with a numeric index vector, which consists of member positions of the original vector to be retrieved.
+Um vetor pode ser subdividido/fatiado (Slice) utilizando os índices numéricos que representam as posições dos elementos do vetor.  Os exemplos a seguir mostram essa técnica:
 
-Here it shows how to retrieve a vector slice containing the second and third members of a given vector s.
+```R runnable
 
-> s = c("aa", "bb", "cc", "dd", "ee") 
-> s[c(2, 3)] 
-[1] "bb" "cc"
-Duplicate Indexes
-The index vector allows duplicate values. Hence the following retrieves a member twice in one operation.
+# Extrair do vetor s os elementos da 2º e 3º posições
 
-> s[c(2, 3, 3)] 
-[1] "bb" "cc" "cc"
+s = c("aa", "bb", "cc", "dd", "ee") 
+print( s[c(2, 3)]) 
+
+cat("\n")
+
+# Extração duplicando os elementos duplicados (extrai os elementos 1 ou + vezes. Extrai o elemento da 3ª posição 2 x
+
+print(s[c(2, 3, 3)]) 
+
+cat("\n")
+
 Out-of-Order Indexes
 The index vector can even be out-of-order. Here is a vector slice with the order of first and second members reversed.
 
