@@ -33,11 +33,12 @@ A operação de transposição de uma matriz A (m,n) consiste em trocar as linha
 #### <b>Exemplo:</b><br>
 ``` R runnable
 
-Mat1 = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
+Mat = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
 
 trans_mat =  t(Mat)
-trans_mat1 = t(Mat1)
 
-cat(mat, "      ", trans_mat)
+print(Mat)
+print()
+print(trans_mat)
 
 ```
