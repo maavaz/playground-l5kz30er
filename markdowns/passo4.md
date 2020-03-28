@@ -122,7 +122,7 @@ print(trans)
 
 cat("\n")
 #Realizando a mesma operação através do fatiamento
-trans = Mat[1:1,1:3]
+trans = Mat[2:2,1:3]
 print(trans)
 
 cat("\n")
