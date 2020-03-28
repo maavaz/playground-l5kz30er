@@ -15,13 +15,22 @@ Um vetor é coleção unidimensional homogênena de dados (números, caracteres,
 vetx <- c(1,2,3,4,5)
 print(vetx)
 
+#Pulando de Linha 
+cat("\n")
+
 # Criando o vetor vletra de caracteres com 3 elementos
 vletra =  c('a', 'b', 'c')
 print(vletra)
 
+#Pulando de Linha 
+cat("\n")
+
 # Criando o vetor vreal do real com 4 elementos
 assign("vreal", c(5.7, 3.3, 6.5, 7.7))
 print(vreal)
+
+#Pulando de Linha 
+cat("\n")
 
 # Criando um vetor com função rep() - repetição de valores e parâmetro each= informando que cada número deve ser repetido 3 x
 numeros <- rep(1:3,each=3)
