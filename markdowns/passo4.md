@@ -103,3 +103,19 @@ print(traco_mat)
 
 ```
 
+### União matrizes
+A união de matrizes é bastante importante para formarmos um conjunto de dados maior a partir de dados menores. Essa união pode ocorrer de duas formas: por linhas e por colunas. Para unirmos duas matrizes através das colunas, utilizamos a **função cbind()**. Já para fazer a união através das linhas, usamos a **função rbind()**.
+
+#### <b>Exemplo:</b><br>
+``` R runnable
+Mat = matrix(c(1, 2, 3, 4), nrow = 2)
+Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
+
+cmat =  cbind(Mat,Mat1)
+
+print(cmat)
+
+```
+
+Vamos continuar os exemplos com nossa matriz notas. No entanto, considere que, durante o ano de 2017, dois alunos foram transferidos da escola e suas notas de matemática nos dois primeiros bimestres estão armazenadas na matriz notas_transf. Vamos aos dados:
+
