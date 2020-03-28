@@ -58,6 +58,9 @@ cat("\n")
 vprod = c(1, 2, 3) %*% c(2, 3, 4)
 print(vprod)
 
+# Criando um vetor com função rep() - repetição de valores e parâmetro each informando que cada número deve ser repetido 3 x
+numeros <- rep(1:3,each=3)
+print(numeros)
 ```
 ### <b>Matrizes</b>
 
