@@ -73,45 +73,35 @@ vprod = c(1, 2, 3) %*% c(2, 3, 4)
 print(vprod)
 
 ```
-### <b>Matrizes</b>
 
-Matrizes são generalizações multidimensionais de vetores, isto é, possuem mais de uma dimensão. São vetores que podem ser indexados por dois ou mais índices e serão impressos em especial maneiras. Em R, as matrizes são criadas pela função **matrix()**. O formato geral é:<br>
-                      ![excecao](/markdowns/imagens/matrix.png)
+### Fatiamento (Slice) em vetores
+
+A new vector can be sliced from a given vector with a numeric index vector, which consists of member positions of the original vector to be retrieved.
+
+Here it shows how to retrieve a vector slice containing the second and third members of a given vector s.
+
+> s = c("aa", "bb", "cc", "dd", "ee") 
+> s[c(2, 3)] 
+[1] "bb" "cc"
+Duplicate Indexes
+The index vector allows duplicate values. Hence the following retrieves a member twice in one operation.
+
+> s[c(2, 3, 3)] 
+[1] "bb" "cc" "cc"
+Out-of-Order Indexes
+The index vector can even be out-of-order. Here is a vector slice with the order of first and second members reversed.
+
+> s[c(2, 1, 3)] 
+[1] "bb" "aa" "cc"
+Range Index
+To produce a vector slice between two indexes, we can use the colon operator ":". This can be convenient for situations involving large vectors.
+
+> s[2:4] 
+[1] "bb" "cc" "dd"
+More information for the colon operator is available in the R documentation.
+
+> help(":")
 
 
-``` R runnable
-# Criando a matriz 2x2 matx 
-matx <- matrix(c(1,2,3,4),ncol = 2)
-print(matx)
 
-#Pulando de Linha 
-cat("\n")
-
-# Criando a matriz 3x3 maty
-maty <- matrix(c(10,100,1000, 20, 200, 2000, 30, 300, 3000),ncol = 3)
-print(maty)
-
-#Pulando de Linha 
-cat("\n")
-
-# Criando uma matriz 3 X 3 com números inteiros gerados de 1 até 9 
-
-matx <- matrix(data = 1:9, nrow=3 ,ncol = 3)
-print(matx) 
-
-#Pulando de Linha 
-cat("\n")
-
-# Criando a matriz 3 X 3 com números inteiros gerados de 1 até 9, mas  organizados por linha  (byrow)
-
-matz <- matrix(data = 1:9, nrow=3 ,ncol = 3, byrow=TRUE)
-print(matz) 
-
-# Criando uma matriz de texto
-
-elemat <- matrix(c("ar","água","terra","fogo"),ncol=2,nrow=2)
-
-print(elemat)
-
-```
 
