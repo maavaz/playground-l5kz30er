@@ -56,12 +56,11 @@ c & d
 #### <b>Exemplo:</b><br>
 ``` R runnable
 
-Mat = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
+Mat = matrix(c(2, 4, 6, 8), nrow = 2)
 
-trans_mat =  t(Mat)
+det_mat =  det(Mat)
 
-print(Mat)
-print(trans_mat)
+print(det_mat)
 
 ```
 ### Inversa de uma Matriz
@@ -81,7 +80,7 @@ A inversa de uma matriz é estimada pela função **solve()**, mesma função ut
 #### <b>Exemplo:</b><br>
 ``` R runnable
 
-Mat = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
+Mat = matrix(c(2, 4, 6, 8), nrow = 2)
 
 inv_mat =  solve(Mat)
 
