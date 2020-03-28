@@ -41,3 +41,26 @@ print(Mat)
 print(trans_mat)
 
 ```
+
+### Determinante de uma Matriz
+O determinante de uma matriz é uma função matricial que converte uma matriz quadrada em um escalar. Para uma matriz quadrada de ordem 2, o determinante é definido como:
+
+
+```math
+det\begin{pmatrix}
+a & b\\ 
+c & d
+\end{pmatrix} = a\cdot d - c\cdot b
+
+```
+#### <b>Exemplo:</b><br>
+``` R runnable
+
+Mat = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
+
+trans_mat =  t(Mat)
+
+print(Mat)
+print(trans_mat)
+
+```
