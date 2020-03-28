@@ -77,3 +77,14 @@ Onde, I é a matriz identidade de mesma dimensão que a matriz A.
 
 
 A inversa de uma matriz é estimada pela função **solve()**, mesma função utilizada para resolução de sistemas de equações em R.
+
+#### <b>Exemplo:</b><br>
+``` R runnable
+
+Mat = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
+
+inv_mat =  solve(Mat)
+
+print(inv_mat)
+
+```
