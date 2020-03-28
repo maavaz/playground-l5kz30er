@@ -90,12 +90,14 @@ A soma dos elementos da diagonal de uma matriz quadrada define o traço de uma m
 ```math
 tr\begin{pmatrix} a & b\\ c & d \end{pmatrix} = a + d
 ```
+Em R, a obtenção do traço passa pela extração dos elementos da diagonal da matrix, por meio da função diag(), e a soma destes elementos pela função sum(). <br>
+
 #### <b>Exemplo:</b><br>
 ``` R runnable
 
 Mat = matrix(c(2, 4, 6, 8), nrow = 2)
 
-traco_mat =  tr(Mat)
+traco_mat =  sum(diag(Mat))
 
 print(traco_mat)
 
