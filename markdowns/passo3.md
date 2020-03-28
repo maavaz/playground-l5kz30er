@@ -1,5 +1,3 @@
-### <b>Operações com Matrizes</b>
-
 ### <b>Matrizes</b>
 
 Matrizes são generalizações multidimensionais de vetores, isto é, possuem mais de uma dimensão. São vetores que podem ser indexados por dois ou mais índices e serão impressos em especial maneiras. Em R, as matrizes são criadas pela função **matrix()**. O formato geral é:<br>
@@ -41,6 +39,7 @@ elemat <- matrix(c("ar","água","terra","fogo"),ncol=2,nrow=2)
 print(elemat)
 
 ```
+### <b>Operações com Matrizes</b>
 
 ### Soma de Matrizes
 A operação de soma de matrizes segue a mesma sintaxe que na operação entre escalares, isto é, dada duas matrizes de mesma dimensão, a soma de ambas resulta numa matriz cujos elementos são a soma dos elementos das matrizes originais, conforme exibido abaixo. <br>
