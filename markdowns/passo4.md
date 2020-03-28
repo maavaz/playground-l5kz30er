@@ -23,8 +23,7 @@ print(mult_mat)
 ```
 
 ### Matriz Transposta
-A operação de transposição de uma matriz A (m,n) consiste em trocar as linhas pelas colunas de A, esta nova matriz é chamada de matriz transposta de A , representada por A<sup>T</sup>, e é uma matriz (n,m) cujo termo da linha j e coluna i é a<sup>T</sup><sub>ji</sub> ij  a  para j = 1, ... , n e i
-= 1, ... , m. Se a matriz A é simétrica então: A = AT. <br>
+A operação de transposição de uma matriz A (m,n) consiste em trocar as linhas pelas colunas de A, esta nova matriz é chamada de matriz transposta de A , representada por A<sup>T</sup>, e é uma matriz (n,m) cujo termo da linha j e coluna i é a<sup>T</sup><sub>ji</sub> = a<sub>ij</sub> para j = 1, ... , n e i= 1, ... , m. <br>
 
 
 ```math
@@ -37,8 +36,9 @@ Mat = matrix(c(1, 2, 3, 4), nrow = 2)
 
 Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
 
-mult_mat =  Mat %*% Mat1
+trans_mat =  t(Mat)
+trans_mat1 = t(Mat1)
 
-print(mult_mat)
+cat(mat, "      ", trans_mat)
 
 ```
