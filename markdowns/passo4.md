@@ -70,10 +70,7 @@ A inversa de uma matriz quadrada qualquer cujo determinante seja não nulo, A<su
 A^{-1} \cdot A = I
 ```
 
-
-Onde, I é a matriz identidade de mesma dimensão que a matriz A.
-
-
+Onde, I é a matriz identidade de mesma dimensão que a matriz A.<br>
 
 A inversa de uma matriz é estimada pela função **solve()**, mesma função utilizada para resolução de sistemas de equações em R.
 
@@ -86,6 +83,21 @@ inv_mat =  solve(Mat)
 
 print(inv_mat)
 
-print(solve(Mat)%*%Mat)
+```
+### Traço de uma matriz
+
+A soma dos elementos da diagonal de uma matriz quadrada define o traço de uma matriz. Assim, para uma matriz quadrada de ordem 2, o traço é determinado por:
+```math
+tr\begin{pmatrix} a & b\\ c & d \end{pmatrix} = a + d
+```
+#### <b>Exemplo:</b><br>
+``` R runnable
+
+Mat = matrix(c(2, 4, 6, 8), nrow = 2)
+
+traco_mat =  tr(Mat)
+
+print(traco_mat)
 
 ```
+
