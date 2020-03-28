@@ -38,7 +38,6 @@ Mat = matrix(c(2, 4, 6, 8, 10, 12), nrow = 2)
 trans_mat =  t(Mat)
 
 print(Mat)
-print()
 print(trans_mat)
 
 ```
