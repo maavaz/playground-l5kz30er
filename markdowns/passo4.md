@@ -121,6 +121,13 @@ trans = Mat["André",]
 print(trans)
 
 cat("\n")
+#Realizando a mesma operação através do fatiamento
+trans = Mat[1:1,1:3]
+print(trans)
+
+cat("\n")
+
+
 
 # realiza a soma das transações por correntista (soma das linhas)
 corr = rowSums(Mat)
