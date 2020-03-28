@@ -93,5 +93,11 @@ cat("\n")
 matz <- matrix(data = 1:9, nrow=3 ,ncol = 3, byrow=TRUE)
 print(matz) 
 
+# Criando uma matriz de texto
+
+elemat <- matrix(c("ar","água","terra","fogo"),ncol=2,nrow=2)
+
+print(elemat)
+
 ```
 
