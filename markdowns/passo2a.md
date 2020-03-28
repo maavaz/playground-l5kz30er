@@ -27,7 +27,7 @@ cat("\n")
 # Seleção na ordem inversa
 ultimo <- vsaldo[c("dez", "nov", "out")] 
    
-print(saldo)
+print(ultimo)
 ```
 
 
