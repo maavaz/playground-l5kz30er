@@ -76,4 +76,4 @@ Onde, I é a matriz identidade de mesma dimensão que a matriz A.
 
 
 
-A inversa de uma matriz é estimada pela função solve(), mesma função utilizada para resolução de sistemas de equações em R.
+A inversa de uma matriz é estimada pela função **solve()**, mesma função utilizada para resolução de sistemas de equações em R.
