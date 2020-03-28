@@ -112,24 +112,24 @@ colnames(Mat) <- c("Jan", "Fev", "Mar")
 rownames(Mat) <- c("Ana", "André", "Carlos")
 
 print(Mat)
+
 cat("\n")
 
 # Para Exibir apenas as transaçoes realizadas pelo cliente André
 
 trans = Mat["André",]
-
 print(trans)
+
 cat("\n")
 
 # realiza a soma das transações por correntista (soma das linhas)
 corr = rowSums(Mat)
-
 print(corr)
+
 cat("\n")
 
 # realiza a soma das transações a cada mês (soma das colunas)
 mes = colSums(Mat)
-
 print(mes)
 
 ```
