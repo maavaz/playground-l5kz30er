@@ -100,7 +100,7 @@ cat("\n")
 
 # Os elementos podem ser recuperados fora da ordem do vetor vchar
 
-resp<-char[c(2, 1, 3)] 
+resp<-vchar[c(2, 1, 3)] 
 print(resp)
 
 #Pulando de Linha 
