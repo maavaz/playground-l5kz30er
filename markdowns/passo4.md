@@ -120,11 +120,13 @@ trans = Mat["André",]
 
 print(trans)
 cat("\n")
+
 # realiza a soma das transações por correntista (soma das linhas)
 corr = rowSums(Mat)
 
 print(corr)
 cat("\n")
+
 # realiza a soma das transações a cada mês (soma das colunas)
 mes = colSums(Mat)
 
