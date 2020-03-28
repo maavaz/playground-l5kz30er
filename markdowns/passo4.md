@@ -115,6 +115,10 @@ cmat =  cbind(Mat,Mat1)
 
 print(cmat)
 
+rmat = rbind(Mat,Mat1)
+
+print(rmat)
+
 ```
 
 Vamos continuar os exemplos com nossa matriz notas. No entanto, considere que, durante o ano de 2017, dois alunos foram transferidos da escola e suas notas de matemática nos dois primeiros bimestres estão armazenadas na matriz notas_transf. Vamos aos dados:
