@@ -22,6 +22,11 @@ print(vletra)
 # Criando o vetor vreal do real com 4 elementos
 assign("vreal", c(5.7, 3.3, 6.5, 7.7))
 print(vreal)
+
+# Criando um vetor com função rep() - repetição de valores e parâmetro each= informando que cada número deve ser repetido 3 x
+numeros <- rep(1:3,each=3)
+print(numeros)
+
 ```
 ### <b>Operações com vetores</b>
 Podemos fazer operações aritméticas com vetores, como somar, subtrair, multiplicar e dividir.Essas operações são efetuadas elemento a elemento.
@@ -58,9 +63,6 @@ cat("\n")
 vprod = c(1, 2, 3) %*% c(2, 3, 4)
 print(vprod)
 
-# Criando um vetor com função rep() - repetição de valores e parâmetro each informando que cada número deve ser repetido 3 x
-numeros <- rep(1:3,each=3)
-print(numeros)
 ```
 ### <b>Matrizes</b>
 
