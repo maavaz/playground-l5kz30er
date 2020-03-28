@@ -1,27 +1,5 @@
 ### <b>Operações com Matrizes (Continuação) </b>
 
-### Multiplicação matricial
-Essa operação corresponde a multiplicação entre uma matriz (n x m) por uma matriz (m x p),onde o número de colunas da primeira tem que ser igual ao número de linhas da segunda resultando em uma matriz de dimensões (n x p), cujos elementos são a somatório do produto entre os elementos em linha da primeira pelos elementos em coluna da segunda.<br>
-Em R, a multiplicação matricial é representada pelo operador **%*%**, respeitando a equidade entre o número de colunas da primeira matriz e o número de linhas da matriz da segunda. <br>
-
-
-```math
-\begin{pmatrix} a & b\\ c & d \end{pmatrix} \cdot \begin{pmatrix} x & y\\ w & z \end{pmatrix} = \begin{pmatrix} a \cdot x + b \cdot w & a \cdot y + b \cdot z\\ c \cdot x + d \cdot w & c \cdot y + d \cdot z \end{pmatrix}
-
-
-```
-#### <b>Exemplo:</b><br>
-``` R runnable
-Mat = matrix(c(1, 2, 3, 4), nrow = 2)
-
-Mat1 = matrix(c(2, 4, 6, 8), nrow = 2)
-
-mult_mat =  Mat %*% Mat1
-
-print(mult_mat)
-
-```
-
 ### Matriz Transposta
 A operação de transposição de uma matriz A (m,n) consiste em trocar as linhas pelas colunas de A, esta nova matriz é chamada de matriz transposta de A , representada por A<sup>T</sup>, e é uma matriz (n,m) cujo termo da linha j e coluna i é a<sup>T</sup><sub>ji</sub> = a<sub>ij</sub> para j = 1, ... , n e i= 1, ... , m. <br>
 
@@ -121,5 +99,32 @@ print(rmat)
 
 ```
 
+### Nomes das linhas e colunas em uma matriz
+Dar nomes as linhas e colunas de uma matriz facilita a utilização e leitura dos dados de seus dados e, por conta disso, a linguagem R possui duas funções **rownames()** e **colnames()* para efetuar as operações de nomear as linhas e colunas, respectivamente. Uma vez com nomes das linhas e colunas, podemos utilizar os mesmos para realizar filtros na matriz. 
 
+#### <b>Exemplo:</b><br>
+``` R runnable
 
+Mat = matrix(c(1000, -200, 120,-100, 250, -20, 300, 1000, 2000), ncol=3, nrow = 3)
+# Renomeando as colunas e linhas da matriz
+colnames(Mat) <- c("Jan", "Fev", "Mar")
+rownames(Mat) <- c("Ana", "André", "Carlos")
+print(cmat)
+
+# Para Exibir apenas as transaçoes realizadas pelo cliente André
+
+trans = Mat["André",]
+
+print(trans)
+
+# realiza a soma das transações por correntista (soma das linhas)
+corr = rowSums(Mat)
+
+print(corr)
+
+# realiza a soma das transações a cada mês (soma das colunas)
+mes = colSums(Mat)
+
+print(mes)
+
+```
