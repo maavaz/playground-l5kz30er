@@ -86,4 +86,6 @@ inv_mat =  solve(Mat)
 
 print(inv_mat)
 
+print(solve(Mat)%*%Mat)
+
 ```
