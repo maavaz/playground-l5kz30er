@@ -84,7 +84,7 @@ cat ("   ",vet3 , "<-- vet2 ordenado em ordem decrescente\n\n")
 cat ("   ",sum(vet1), "<-- Soma dos elemento de vet1\n\n")
 
 
-cat ("   ",cumsum(vet1), "<-- Soma cumulativa dos elemento de vet1\n")
+cat ("   ",cumsum(vet1), "<-- Soma cumulativa dos elemento de vet1\n\n")
 
 # A função unique() remove duplicatas de um vetor
 vet <- rep(1:5,each=3)
