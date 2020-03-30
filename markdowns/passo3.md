@@ -41,7 +41,7 @@ print(elemat)
 ```
 ### <b>Operações com Matrizes</b>
 
-### Soma de Matrizes
+### <b>Soma de Matrizes</b>
 A operação de soma de matrizes segue a mesma sintaxe que na operação entre escalares, isto é, dada duas matrizes de mesma dimensão, a soma de ambas resulta numa matriz cujos elementos são a soma dos elementos das matrizes originais, conforme exibido abaixo. <br>
 
 ```math
@@ -59,7 +59,7 @@ soma_mat =  Mat + Mat1
 print(soma_mat)
 
 ```
-### Subtração de Matrizes
+### <b>Subtração de Matrizes</b>
 A operação de subtração de matrizes é semelhante a soma, isto é, dada duas matrizes de mesma dimensão, a subtração de ambas resulta numa matriz cujos elementos são a subtração dos elementos das matrizes originais, conforme exibido abaixo. <br>
 
 ```math
@@ -76,7 +76,7 @@ sub_mat =  Mat1 - Mat
 print(sub_mat)
 
 ```
-### Multiplicação por um escalar
+### <b>Multiplicação por um escalar</b>
 Dada uma matriz de qualquer dimensão, a multiplicação por um escalar e, tal que e ∈ R, resulta em uma matriz onde seus elementos correspondem ao produto do escalar por cada um dos elementos da matriz. <br>
 
 ```math
@@ -97,7 +97,7 @@ print(prod_mat)
 print(prod_mat1)
 ```
 
-### Multiplicação entre Matrizes
+### <b>Multiplicação entre Matrizes</b>
 A operação de multiplicação entre matrizes resulta em uma matriz onde os elementos correspondem ao produto dos elementos equivalentes das duas matrizes de mesmas dimensões. <br>
 
 ```math
@@ -116,7 +116,7 @@ print(mult_mat)
 
 ```
 
-### Multiplicação matricial
+### <b>Multiplicação matricial</b>
 Essa operação corresponde a multiplicação entre uma matriz (n x m) por uma matriz (m x p),onde o número de colunas da primeira tem que ser igual ao número de linhas da segunda resultando em uma matriz de dimensões (n x p), cujos elementos são a somatório do produto entre os elementos em linha da primeira pelos elementos em coluna da segunda.<br>
 Em R, a multiplicação matricial é representada pelo operador **%*%**, respeitando a equidade entre o número de colunas da primeira matriz e o número de linhas da matriz da segunda. <br>
 
