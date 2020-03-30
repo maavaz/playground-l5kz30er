@@ -84,6 +84,15 @@ print(vet3)
 #Pula linha
 cat("\n")
 
+# sum() retorna a soma dos elementos e cumsum() retorna a soma cumulativa dos elementos
+
+print(sum(vet3))
+
+#Pula linha
+cat("\n")
+
+print(cumsum(vet3))
+
 ```
 
 <b> Função	Descrição</b> <br>
