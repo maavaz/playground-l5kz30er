@@ -44,6 +44,9 @@ vetlog= c(FALSE, TRUE, FALSE, TRUE, FALSE)
 
 print(vet[vetlog])
 
+# Pula linha
+cat("\n")
+
 # a seleção pode ser feita sem a criação de vetlog 
 
 print(vet[c(FALSE, TRUE, FALSE, TRUE, FALSE)]) 
