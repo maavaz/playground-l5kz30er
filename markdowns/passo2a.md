@@ -51,3 +51,16 @@ cat("\n")
 
 print(vet[c(FALSE, TRUE, FALSE, TRUE, FALSE)]) 
 ```
+
+### Algumas funções de manipulação de vetores
+Abaixo descrevemos algumas funções de manipulação de vetores: <br>
+
+<b> Função	Descrição</b> <br>
+paste()	Concatena vetores
+order()	Retorna a ordem
+length()	Retorna o tamanho do vetor
+names()	Nomeia os elementos
+cumsum()	Retorna um vetor que é a soma cumulativa do vetor objeto
+sort()	Ordena um vetor
+rev()	Retorna o vetor em ordem decrescente
+is.na()	Retorna um vetor lógico com TRUE para valor ausente (NA)
