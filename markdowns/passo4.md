@@ -1,6 +1,6 @@
 ### <b>Operações com Matrizes (Continuação) </b>
 
-### Matriz Transposta
+### <b>Matriz Transposta</b>
 A operação de transposição de uma matriz A (m,n) consiste em trocar as linhas pelas colunas de A, esta nova matriz é chamada de matriz transposta de A , representada por A<sup>T</sup>, e é uma matriz (n,m) cujo termo da linha j e coluna i é a<sup>T</sup><sub>ji</sub> = a<sub>ij</sub> para j = 1, ... , n e i= 1, ... , m. <br>
 
 
@@ -20,7 +20,7 @@ print(trans_mat)
 
 ```
 
-### Determinante de uma Matriz
+### <b>Determinante de uma Matriz</b>
 O determinante de uma matriz é uma função matricial que converte uma matriz quadrada em um escalar. Para uma matriz quadrada de ordem 2, o determinante é definido como:
 
 
@@ -41,7 +41,7 @@ det_mat =  det(Mat)
 print(det_mat)
 
 ```
-### Inversa de uma Matriz
+### <b>Inversa de uma Matriz</b>
 
 A inversa de uma matriz quadrada qualquer cujo determinante seja não nulo, A<sub>n,n</sub>, é uma matriz de mesmas dimensões que atenda a seguinte condição:
 ```math
@@ -62,7 +62,7 @@ inv_mat =  solve(Mat)
 print(inv_mat)
 
 ```
-### Traço de uma matriz
+### <b>Traço de uma matriz</b>
 
 A soma dos elementos da diagonal de uma matriz quadrada define o traço de uma matriz. Assim, para uma matriz quadrada de ordem 2, o traço é determinado por:
 ```math
@@ -81,7 +81,7 @@ print(traco_mat)
 
 ```
 
-### União matrizes
+### <b>União matrizes</b>
 A união de matrizes é bastante importante para formarmos um conjunto de dados maior a partir de dados menores. Essa união pode ocorrer de duas formas: por linhas e por colunas. Para unirmos duas matrizes através das colunas, utilizamos a **função cbind()**. Já para fazer a união através das linhas, usamos a **função rbind()**.
 
 #### <b>Exemplo:</b><br>
@@ -99,7 +99,7 @@ print(rmat)
 
 ```
 
-### Nomes das linhas e colunas em uma matriz
+### <b>Nomes das linhas e colunas em uma matriz</b>
 Dar nomes as linhas e colunas de uma matriz facilita a utilização e leitura dos dados de seus dados e, por conta disso, a linguagem R possui duas funções **rownames()** e **colnames()* para efetuar as operações de nomear as linhas e colunas, respectivamente. Uma vez com nomes das linhas e colunas, podemos utilizar os mesmos para realizar filtros na matriz. 
 
 #### <b>Exemplo:</b><br>
