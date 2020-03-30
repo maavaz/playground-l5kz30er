@@ -36,9 +36,9 @@ Os elementos de um determinado vetor podem ser selecionados/fatiados a partir de
 
 #### Exemplos:
 ``` R runnable
-vet = c("aa", "bb", "cc", "dd", "ee")
+vet <- c("aa", "bb", "cc", "dd", "ee")
 
-vetlog= c(FALSE, TRUE, FALSE, TRUE, FALSE) 
+vetlog <- c(FALSE, TRUE, FALSE, TRUE, FALSE) 
 
 # Seleciona o segundo e quarto elementos de vet a partir de vetlog
 
@@ -53,7 +53,28 @@ print(vet[c(FALSE, TRUE, FALSE, TRUE, FALSE)])
 ```
 
 ### Algumas funções de manipulação de vetores
-Abaixo descrevemos algumas funções de manipulação de vetores: <br>
+Abaixo apresentamos alguns exemplos de outras funções de manipulação de vetores. <br>
+
+``` R runnable
+vet1 <- c(2,1,4,3)
+vet2 <- c(8,7,6,5)
+# A função paste() une os vetores
+vet3 <- paste(vet1,vet2)
+
+print(vet3)
+
+# A função order() ordena o vetor em ordem crescente ou decrescente
+vet3<- order(vet1, decreasing = FALSE)
+
+print(vet3)
+
+# A função sort() ordena o vetor em ordem crescente ou decrescente
+
+vet3 <- sort(vet2)
+
+print(vet3)
+
+```
 
 <b> Função	Descrição</b> <br>
 paste()	Concatena vetores
