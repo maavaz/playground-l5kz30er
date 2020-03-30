@@ -64,10 +64,7 @@ vet2 <- c(8,7,6,5)
 vet3<- order(vet1, decreasing = FALSE)
 
 cat("   ",vet1, "<-- vet1\n\n")
-cat("   ",vet3, "<--ìndices ordenados vet1\n")
-
-#Pula linha
-cat("\n")
+cat("   ",vet3, "<--ìndices ordenados vet1\n\n")
 
 #Para exibir o vetor ordenado utiliza-se o operador [ ] que seleciona um elemento através da posição dele no vetor
 
@@ -86,10 +83,11 @@ cat ("   ",vet3 , "<-- vet2 ordenado em ordem decrescente\n\n")
 
 cat ("   ",sum(vet1), "<-- Soma dos elemento de vet1\n\n")
 
-#Pula linha
-cat("\n")
 
 cat ("   ",cumsum(vet1), "<-- Soma cumulativa dos elemento de vet1\n")
+
+# A função unique() remove duplicatas de um vetor
+vet <-
 
 ```
 
