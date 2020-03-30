@@ -11,13 +11,13 @@
 ?[Qual a saída esperada para os códigos c(c(FALSE,FALSE), c(FALSE, 1), c(TRUE, FALSE), c(TRUE, TRUE))?]
 -[x] 0 0 0 1 1 0 1 1
 -[ ] 1 1 1 0 1 1 0 0
--[ ] Error!!!
+-[ ] ERROR !!
 -[ ] 0 0 1 1 1 1 0 0 
 -[ ] 1 1 1 1 0 0 1 1
 
-?[Qual a saída esperada para os códigos c(c(FALSE,FALSE), c(FALSE, 1), c(TRUE, FALSE), c(TRUE, TRUE))?]
--[x] 0 0 0 1 1 0 1 1
--[ ] 1 1 1 0 1 1 0 0
--[ ] Error!!!
--[ ] 0 0 1 1 1 1 0 0 
--[ ] 1 1 1 1 0 0 1 1
+?[Considere o vetor: vet <- c(4,6,5,7,10,9,4,15), qual o valor de vet < 7 ?]
+-[ ] TRUE TRUE TRUE TRUE FALSE FALSE FALSE FALSE
+-[x] TRUE TRUE TRUE FALSE FALSE FALSE TRUE  FALSE
+-[ ] TRUE TRUE TRUE TRUE  FALSE FALSE FALSE FALSE
+-[ ] ERROR !! 
+-[ ] FALSE FALSE FALSE TRUE TRUE TRUE FALSE TRUE
