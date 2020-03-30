@@ -10,7 +10,7 @@
 
 ?[Das equações abaixo, assinale a única que irá retornar o valor FALSE?]
 -[ ] 2 == "2"
--[ ] 1 1 1 0 1 1 0 0
+-[ ] -1 < FALSE
 -[x] Error!!!
 -[ ] 0 0 1 1 1 1 0 0 
 -[ ] 1 1 1 1 0 0 1 1
