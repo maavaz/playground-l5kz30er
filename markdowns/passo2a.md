@@ -87,7 +87,14 @@ cat ("   ",sum(vet1), "<-- Soma dos elemento de vet1\n\n")
 cat ("   ",cumsum(vet1), "<-- Soma cumulativa dos elemento de vet1\n")
 
 # A função unique() remove duplicatas de um vetor
-vet <-
+vet <- rep(1:5,each=3)
+
+cat(vet, "\n\n")
+
+vet <- unique(vet)
+
+cat(vet, "\n\n")
+
 
 ```
 
