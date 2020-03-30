@@ -56,7 +56,7 @@ print(vet[c(FALSE, TRUE, FALSE, TRUE, FALSE)])
 Abaixo apresentamos alguns exemplos de outras funções de manipulação de vetores. <br>
 
 ``` R runnable
-vet1 <- c(2,1,4,3)
+vet1 <- c(4,1,2,3)
 vet2 <- c(8,7,6,5)
 
 # A função paste() concatena os vetores (pode ser usada em texto) após transformálos em texto.
@@ -72,7 +72,7 @@ cat("\n")
 vet3<- order(vet1, decreasing = FALSE)
 
 print(vet1)
-cat(vet3, "<--ìndices ordenados vet1")
+cat("   ",vet3, "<--ìndices ordenados vet1")
 
 #Pula linha
 cat("\n")
