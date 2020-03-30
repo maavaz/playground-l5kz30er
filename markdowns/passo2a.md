@@ -71,7 +71,7 @@ cat("\n")
 
 vet3<- order(vet1, decreasing = FALSE)
 
-print(vet1)
+cat("   ",vet1, "<-- vet1")
 cat("   ",vet3, "<--ìndices ordenados vet1")
 
 #Pula linha
