@@ -86,21 +86,12 @@ cat("\n")
 
 # sum() retorna a soma dos elementos e cumsum() retorna a soma cumulativa dos elementos
 
-print(sum(vet3))
+cat ("   ",sum(vet1), "<-- Soma dos elemento de vet1\n")
 
 #Pula linha
 cat("\n")
 
-print(cumsum(vet3))
+cat ("   ",cumsum(vet1), "<-- Soma cumulativa dos elemento de vet1\n")
 
 ```
 
-<b> Função	Descrição</b> <br>
-paste()	Concatena vetores
-order()	Retorna a ordem
-length()	Retorna o tamanho do vetor
-names()	Nomeia os elementos
-cumsum()	Retorna um vetor que é a soma cumulativa do vetor objeto
-sort()	Ordena um vetor
-rev()	Retorna o vetor em ordem decrescente
-is.na()	Retorna um vetor lógico com TRUE para valor ausente (NA)
