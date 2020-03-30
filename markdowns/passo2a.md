@@ -58,10 +58,14 @@ Abaixo apresentamos alguns exemplos de outras funções de manipulação de veto
 ``` R runnable
 vet1 <- c(2,1,4,3)
 vet2 <- c(8,7,6,5)
-# A função paste() une os vetores
+
+# A função paste() concatena os vetores (pode ser usada em texto) após transformálos em texto.
 vet3 <- paste(vet1,vet2)
 
 print(vet3)
+
+#Pula linha
+cat("\n")
 
 # A função order() ordena o vetor em ordem crescente ou decrescente, mas exibe a ordenação pelos índices do vetor
 
