@@ -15,4 +15,9 @@
 -[ ] 0 0 1 1 1 1 0 0 
 -[ ] 1 1 1 1 0 0 1 1
 
-
+?[Qual a saída esperada para os códigos c(c(FALSE,FALSE), c(FALSE, 1), c(TRUE, FALSE), c(TRUE, TRUE))?]
+-[x] 0 0 0 1 1 0 1 1
+-[ ] 1 1 1 0 1 1 0 0
+-[ ] Error!!!
+-[ ] 0 0 1 1 1 1 0 0 
+-[ ] 1 1 1 1 0 0 1 1
