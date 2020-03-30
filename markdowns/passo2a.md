@@ -31,18 +31,20 @@ print(ultimo)
 ```
 
 
-Logical Index Vector
-A new vector can be sliced from a given vector with a logical index vector, which has the same length as the original vector. Its members are TRUE if the corresponding members in the original vector are to be included in the slice, and FALSE if otherwise.
+### Fatiamento (Seleção) através de Índices Lógicos
+Os elementos de um determinado vetor podem ser selecionados/fatiados a partir de um vetor lógico (índices) de mesma dimensão que o vetor original.  Os elementos são selecionados se o correspondente no vetor lógico for Verdade (True), do contrário não é selecionado.
 
-For example, consider the following vector s of length 5.
+#### Exemplos:
+``` R runnable
+vet = c("aa", "bb", "cc", "dd", "ee")
 
-> s = c("aa", "bb", "cc", "dd", "ee")
-To retrieve the the second and fourth members of s, we define a logical vector L of the same length, and have its second and fourth members set as TRUE.
+vetlog= c(FALSE, TRUE, FALSE, TRUE, FALSE) 
 
-> L = c(FALSE, TRUE, FALSE, TRUE, FALSE) 
-> s[L] 
-[1] "bb" "dd"
-The code can be abbreviated into a single line.
+# Seleciona o segundo e quarto elementos de vet a partir de vetlog
 
-> s[c(FALSE, TRUE, FALSE, TRUE, FALSE)] 
-[1] "bb" "dd"
+print(vet[vetlog])
+
+# a seleção pode ser feita sem a criação de vetlog 
+
+print(vet[c(FALSE, TRUE, FALSE, TRUE, FALSE)]) 
+```
