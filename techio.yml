@@ -18,6 +18,8 @@ plan:
   statement: markdowns/passo2.md
 - title: Vetores
   statement: markdowns/passo2a.md  
+- title: Praticando
+  statement: markdowns/passo2b.md    
 - title: Matrizes
   statement: markdowns/passo3.md  
 - title: Matrizes (Continuação)
