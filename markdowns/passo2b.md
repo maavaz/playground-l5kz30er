@@ -21,3 +21,10 @@
 -[ ] TRUE TRUE TRUE TRUE  FALSE FALSE FALSE FALSE
 -[ ] ERROR !! 
 -[ ] FALSE FALSE FALSE TRUE TRUE TRUE FALSE TRUE
+
+?[Considere os vetores: p <- c (3, 5, 6, 8) e q <- c (3, 3, 3), qual o valor de p + q ?]
+-[ ] ERROR !!! longer object length is not a multiple of shorter object length
+-[x] 6  8  9  11
+-[ ] 6  8  6  8
+-[ ] 6  8  9  NA 
+-[ ] 6  8  0  0
