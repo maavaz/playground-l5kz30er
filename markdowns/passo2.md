@@ -36,6 +36,13 @@ cat("\n")
 numeros <- rep(1:3,each=3)
 print(numeros)
 
+#Pula linha
+cat("\n")
+
+# Utilizando o operador :
+numeros <- 1:10
+print(numeros)
+
 ```
 ### <b>Operações com vetores</b>
 Podemos fazer operações aritméticas com vetores, como somar, subtrair, multiplicar e dividir.Essas operações são efetuadas elemento a elemento.
