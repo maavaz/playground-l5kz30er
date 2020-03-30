@@ -60,7 +60,7 @@ vet1 <- c(4,1,2,3)
 vet2 <- c(8,7,6,5)
 
 # A função paste() concatena os vetores (pode ser usada em texto) após transformálos em texto.
-vet3 <- paste(vet1,vet2)
+vet3 <- paste(vet1,vet2, sep = " ", collapse = NULL)
 
 print(vet3)
 
@@ -71,8 +71,8 @@ cat("\n")
 
 vet3<- order(vet1, decreasing = FALSE)
 
-cat("   ",vet1, "<-- vet1")
-cat("   ",vet3, "<--ìndices ordenados vet1")
+cat("   ",vet1, "<-- vet1\n")
+cat("   ",vet3, "<--ìndices ordenados vet1\n")
 
 #Pula linha
 cat("\n")
