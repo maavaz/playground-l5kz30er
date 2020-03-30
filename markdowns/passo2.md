@@ -81,7 +81,7 @@ print(vprod)
 
 ```
 
-### Fatiamento (Slice) em vetores
+### <b> Fatiamento (Slice) em vetores</b>
 
 Um vetor pode ser subdividido/fatiado (Slice) utilizando os índices numéricos que representam as posições dos elementos do vetor.  Os exemplos a seguir mostram essa técnica:
 
