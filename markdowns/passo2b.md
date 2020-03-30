@@ -9,9 +9,9 @@
 -[ ] FALSE < TRUE
 
 ?[Das equações abaixo, assinale a única que irá retornar o valor FALSE?]
--[x] 0 0 0 1 1 0 1 1
+-[ ] 0 0 0 1 1 0 1 1
 -[ ] 1 1 1 0 1 1 0 0
--[ ] Error!!!
+-[x] Error!!!
 -[ ] 0 0 1 1 1 1 0 0 
 -[ ] 1 1 1 1 0 0 1 1
 
