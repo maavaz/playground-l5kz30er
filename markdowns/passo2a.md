@@ -73,16 +73,14 @@ cat("\n")
 
 vet3<- vet1[order(vet1, decreasing = FALSE)]
 
-print(vet3)
+cat ("   ",vet3, "<-- vet1 ordenado em ordem crescente\n")
 
 # A função sort() ordena o vetor em ordem crescente ou decrescente, exibindo o vetor ordenado
 
 vet3 <- sort(vet2, , decreasing = TRUE)
 
-print(vet3)
+cat ("   ",vet3 , "<-- vet2 ordenado em ordem decrescente\n")
 
-#Pula linha
-cat("\n")
 
 # sum() retorna a soma dos elementos e cumsum() retorna a soma cumulativa dos elementos
 
