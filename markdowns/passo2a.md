@@ -1,6 +1,6 @@
 ### <b>Vetores</b>
 
-### Nomeando os elementos do vetor
+### <b>Nomeando os elementos do vetor</b>
 O R permite a associação de nomes aos elementos de um vetor.
  
 #### Exemplos:
@@ -31,7 +31,7 @@ print(ultimo)
 ```
 
 
-### Fatiamento (Seleção) através de Índices Lógicos
+### <b>Fatiamento (Seleção) através de Índices Lógicos </b>
 Os elementos de um determinado vetor podem ser selecionados/fatiados a partir de um vetor lógico (índices) de mesma dimensão que o vetor original.  Os elementos são selecionados se o correspondente no vetor lógico for Verdade (True), do contrário não é selecionado.
 
 #### Exemplos:
@@ -52,7 +52,7 @@ cat("\n")
 print(vet[c(FALSE, TRUE, FALSE, TRUE, FALSE)]) 
 ```
 
-### Algumas funções de manipulação de vetores
+### <b>Algumas funções de manipulação de vetores</b>
 Abaixo apresentamos alguns exemplos de outras funções de manipulação de vetores. <br>
 
 ``` R runnable
