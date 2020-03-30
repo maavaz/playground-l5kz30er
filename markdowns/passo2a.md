@@ -63,14 +63,24 @@ vet3 <- paste(vet1,vet2)
 
 print(vet3)
 
-# A função order() ordena o vetor em ordem crescente ou decrescente
+# A função order() ordena o vetor em ordem crescente ou decrescente, mas exibe a ordenação pelos índices do vetor
+
 vet3<- order(vet1, decreasing = FALSE)
 
 print(vet3)
 
-# A função sort() ordena o vetor em ordem crescente ou decrescente
+#Pula linha
+cat("\n")
 
-vet3 <- sort(vet2)
+#Para exibir o vetor ordenado utiliza-se o operador [ ] que seleciona um elemento através da posição dele no vetor
+
+vet3<- vet1[order(vet1, decreasing = FALSE)]
+
+print(vet3)
+
+# A função sort() ordena o vetor em ordem crescente ou decrescente, exibindo o vetor ordenado
+
+vet3 <- sort(vet2, , decreasing = TRUE)
 
 print(vet3)
 
