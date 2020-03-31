@@ -28,3 +28,10 @@
 -[ ] 6  8  6  8
 -[ ] 6  8  9  NA 
 -[ ] 6  8  0  0
+
+?[Dada os seguintes vetores: vet <- c(2, 4, 6, 8) e vlog <- c(TRUE, TRUE, FALSE, TRUE). Qual o valor de sum(x[y])?]
+-[ ] 6 
+-[ ] 10
+-[ ] 12
+-[x] 14 
+-[ ] 20
