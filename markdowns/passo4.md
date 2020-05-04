@@ -100,7 +100,7 @@ print(rmat)
 ```
 
 ### <b>Nomes das linhas e colunas em uma matriz</b>
-Dar nomes as linhas e colunas de uma matriz facilita a utilização e leitura dos dados de seus dados e, por conta disso, a linguagem R possui duas funções **rownames()** e **colnames()* para efetuar as operações de nomear as linhas e colunas, respectivamente. Uma vez com nomes das linhas e colunas, podemos utilizar os mesmos para realizar filtros na matriz. 
+Dar nomes as linhas e colunas de uma matriz facilita a utilização e leitura dos dados de seus dados e, por conta disso, a linguagem R possui duas funções **rownames()** e **colnames()** para efetuar as operações de nomear as linhas e colunas, respectivamente. Uma vez com nomes das linhas e colunas, podemos utilizar os mesmos para realizar filtros na matriz. 
 
 #### <b>Exemplo:</b><br>
 ``` R runnable
