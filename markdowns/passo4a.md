@@ -15,4 +15,16 @@
 -[ ] Sim, é obrigatória a presença de ambos os argumentos
 -[ ] Não, porque esses argumentos são da função array. A função matrix exige o argumento dim.
 
+?[Considere o seguinte comando m <- matrix(c(1, 2, 3, 4, 5), nrow = 3), qual o valor do elemento m[3,2]?] 
+-[X] 1
+-[ ] 2
+-[ ] 3
+-[ ] 4
+-[ ] 5
 
+?[Dada a matriz criada no exemplo anterior, qual a resultado do seguinte comando sum(m[m >= 3])
+-[ ] 6
+-[ ] 7
+-[ ] 8
+-[ ] 9
+-[X] 12
