@@ -30,7 +30,7 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td align="center">2</td>
 </tr>
 <tr class="even">
-<td align="center">Pedro</td>
+<td align="left">Pedro</td>
 <td align="center">1.87</td>
 <td>21</td>
 <td align="center">M</td>
@@ -48,7 +48,7 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td align="center">10</td>
 </tr>
 <tr class="even">
-<td align="center">Teo</td>
+<td align="left">Teo</td>
 <td align="center">1.75</td>
 <td>20</td>
 <td align="center">M</td>
@@ -90,4 +90,5 @@ alun.data <- data.frame(
 )
 # Print the data frame.			
 print(emp.data) 
+
 ```
