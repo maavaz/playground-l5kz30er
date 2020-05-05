@@ -26,7 +26,6 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td>22</td>
 <td align="left">M</td>
 <td align="left">78.3</td>
-<td align="left">sim</td>
 <td align="center">PB</td>
 <td align="left">2</td>
 </tr>
