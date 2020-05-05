@@ -6,7 +6,7 @@ Os DataFrames possuem as seguintes características:
 + Os nomes das linhas devem ser exclusivos (índices).
 + Os dados armazenados em um dataframe podem ser do tipo numérico, real ou caractere.
 + Cada coluna deve conter o mesmo número de itens de dados.
-Exemplo:
+Observe o DataFrame a seguir:
 table class="table table-condensed">
 <thead>
 <tr class="header">
@@ -23,9 +23,9 @@ table class="table table-condensed">
 <tbody>
 <tr class="odd">
 <td align="left">João</td>
-<td align="left">1.80</td>
+<td align="left">1.70</td>
 <td>22</td>
-<td align="left">masculino</td>
+<td align="left">M</td>
 <td align="left">78.3</td>
 <td align="left">sim</td>
 <td align="center">PB</td>
@@ -33,29 +33,29 @@ table class="table table-condensed">
 </tr>
 <tr class="even">
 <td align="left">Pedro</td>
-<td align="left">1.77</td>
+<td align="left">1.87</td>
 <td>21</td>
-<td align="left">masculino</td>
-<td align="left">82.1</td>
+<td align="left">M</td>
+<td align="left">92.1</td>
 <td align="left">não</td>
 <td align="center">AL</td>
 <td align="left">5</td>
 </tr>
 <tr class="odd">
-<td align="left">Amanda</td>
-<td align="left">1.71</td>
+<td align="left">Ana</td>
+<td align="left">1.69</td>
 <td>18</td>
-<td align="left">feminino</td>
+<td align="left">F</td>
 <td align="left">66.5</td>
 <td align="left">sim</td>
 <td align="center">PE</td>
 <td align="left">10</td>
 </tr>
 <tr class="even">
-<td align="left">Fábio</td>
-<td align="left">1.65</td>
+<td align="left">Teo</td>
+<td align="left">1.75</td>
 <td>20</td>
-<td align="left">masculino</td>
+<td align="left">M</td>
 <td align="left">88.1</td>
 <td align="left">não</td>
 <td align="center">PE</td>
@@ -65,7 +65,7 @@ table class="table table-condensed">
 <td align="left">Fernanda</td>
 <td align="left">1.66</td>
 <td>23</td>
-<td align="left">feminino</td>
+<td align="left">F</td>
 <td align="left">58.0</td>
 <td align="left">sim</td>
 <td align="center">SP</td>
@@ -73,9 +73,9 @@ table class="table table-condensed">
 </tr>
 <tr class="even">
 <td align="left">Gustavo</td>
-<td align="left">1.63</td>
+<td align="left">1.73</td>
 <td>19</td>
-<td align="left">masculino</td>
+<td align="left">M</td>
 <td align="left">75.4</td>
 <td align="left">não</td>
 <td align="center">CE</td>
