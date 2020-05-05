@@ -76,7 +76,7 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 </tr>
 </tbody>
 </table>
-O exemplo a seguir representa a criação do DataFrame acima:<br>
+O exemplo a seguir representa a criação do DataFrame (tabela) acima:<br>
 
 ```` R runnable
 # Create the data frame.
