@@ -2,7 +2,7 @@
 ---
 Até agora as estruturas de dados apresentadas (vetor e matriz) armazenam dados de um mesmo tipo. DataFrame são estruturas de dados tabulares, parecidos com as matrizes bi-dimensionais, mas podem ter diferentes tipos de dados em suas colunas, isto é, cada coluna contém valores variáveis de mesmo tipo e cada linha contém um conjunto de valores das diferentes colunas (um por coluna).
 Os DataFrames possuem as seguintes características:
-+ As colunas deve ter uma nome, não devem estar vazios.
++ As colunas deve ter um nome, não devem se vazios.
 + Os nomes das linhas devem ser exclusivos (índices).
 + Os dados armazenados em um dataframe podem ser do tipo numérico, real ou caractere.
 + Cada coluna deve conter o mesmo número de itens de dados. <br>
