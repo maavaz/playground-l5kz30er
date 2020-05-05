@@ -26,3 +26,5 @@ plan:
   statement: markdowns/passo4.md    
 - title: Praticando (Matrizes)
   statement: markdowns/passo4a.md 
+- title: DataFrames em R
+  statement: markdowns/passo5.md 
