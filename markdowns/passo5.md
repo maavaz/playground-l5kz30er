@@ -10,69 +10,69 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <table class="table table-condensed">
 <thead>
 <tr class="header">
-<th align="left">nome</th>
-<th align="left">altura</th>
+<th align="center">nome</th>
+<th align="center">altura</th>
 <th>idade</th>
-<th align="left">sexo</th>
-<th align="left">peso</th>
+<th align="center">sexo</th>
+<th align="center">peso</th>
 <th align="center">uf</th>
-<th align="left">renda (S.M.)</th>
+<th align="center">renda (S.M.)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">João</td>
-<td align="left">1.70</td>
+<td align="center">1.70</td>
 <td>22</td>
-<td align="left">M</td>
-<td align="left">78.3</td>
+<td align="center">M</td>
+<td align="center">78.3</td>
 <td align="center">PB</td>
-<td align="left">2</td>
+<td align="center">2</td>
 </tr>
 <tr class="even">
-<td align="left">Pedro</td>
-<td align="left">1.87</td>
+<td align="center">Pedro</td>
+<td align="center">1.87</td>
 <td>21</td>
-<td align="left">M</td>
-<td align="left">92.1</td>
+<td align="center">M</td>
+<td align="center">92.1</td>
 <td align="center">AL</td>
-<td align="left">5</td>
+<td align="center">5</td>
 </tr>
 <tr class="odd">
 <td align="left">Ana</td>
-<td align="left">1.69</td>
+<td align="center">1.69</td>
 <td>18</td>
-<td align="left">F</td>
-<td align="left">66.5</td>
+<td align="center">F</td>
+<td align="center">66.5</td>
 <td align="center">PE</td>
-<td align="left">10</td>
+<td align="center">10</td>
 </tr>
 <tr class="even">
-<td align="left">Teo</td>
-<td align="left">1.75</td>
+<td align="center">Teo</td>
+<td align="center">1.75</td>
 <td>20</td>
-<td align="left">M</td>
-<td align="left">88.1</td>
+<td align="center">M</td>
+<td align="center">88.1</td>
 <td align="center">RJ</td>
-<td align="left">20</td>
+<td align="center">20</td>
 </tr>
 <tr class="odd">
 <td align="left">Fernanda</td>
-<td align="left">1.66</td>
+<td align="center">1.66</td>
 <td>23</td>
-<td align="left">F</td>
-<td align="left">58.0</td>
+<td align="center">F</td>
+<td align="center">58.0</td>
 <td align="center">SP</td>
-<td align="left">10</td>
+<td align="center">10</td>
 </tr>
 <tr class="even">
 <td align="left">Gustavo</td>
-<td align="left">1.73</td>
+<td align="center">1.73</td>
 <td>19</td>
-<td align="left">M</td>
-<td align="left">75.4</td>
+<td align="center">M</td>
+<td align="center">75.4</td>
 <td align="center">CE</td>
-<td align="left">NA</td>
+<td align="center">NA</td>
 </tr>
 </tbody>
 </table>
