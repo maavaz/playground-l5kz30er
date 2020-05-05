@@ -24,3 +24,5 @@ plan:
   statement: markdowns/passo3.md  
 - title: Matrizes (Continuação)
   statement: markdowns/passo4.md    
+- title: Praticando (Matrizes)
+  statement: markdowns/passo4a.md 
