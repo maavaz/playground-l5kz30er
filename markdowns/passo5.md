@@ -82,10 +82,11 @@ O exemplo a seguir representa a criação do DataFrame acima:<br>
 # Create the data frame.
 alun.data <- data.frame( 
    alun_name = c("João","Pedro","Ana","Teo","Fernanda", "Gustavo"),
-   alun_altu = c(623.3,515.2,611.0,729.0,843.25), 
-   
-   start_date = as.Date(c("2012-01-01", "2013-09-23", "2014-11-15", "2014-05-11",
-      "2015-03-27")),
+   alun_altu = c(1.7,1.87,1.69,1.75,1.66, 1.73), 
+   alun_sexo = c('M', 'M', 'F', 'M', 'F', 'M'),
+   alun_peso = c(78.3, 92.1, 66.5, 88.1, 58, 75.4),
+   alun_sigla =c("PB", "AL", "PE", "RJ", "SP", "CE"),
+   alun_renda = c(2, 5, 10, 20, 10, "NA"),
    stringsAsFactors = FALSE
 )
 # Print the data frame.			
