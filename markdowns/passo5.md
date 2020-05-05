@@ -6,7 +6,7 @@ Os DataFrames possuem as seguintes características:
 + Os nomes das linhas devem ser exclusivos (índices).
 + Os dados armazenados em um dataframe podem ser do tipo numérico, real ou caractere.
 + Cada coluna deve conter o mesmo número de itens de dados. <br>
-Observe o DataFrame a seguir:<br>
+Observe o DataFrame a seguir onde cada coluna representa um tipo de dados referente as informações dos alunos e cada linha representa um aluno:<br>
 <table class="table table-condensed">
 <thead>
 <tr class="header">
@@ -58,7 +58,7 @@ Observe o DataFrame a seguir:<br>
 <td align="left">M</td>
 <td align="left">88.1</td>
 <td align="left">não</td>
-<td align="center">PE</td>
+<td align="center">RJ</td>
 <td align="left">20</td>
 </tr>
 <tr class="odd">
@@ -83,13 +83,12 @@ Observe o DataFrame a seguir:<br>
 </tr>
 </tbody>
 </table>
-
+O exemplo a seguir representa a criação do DataFrame acima:
 ``` R runnable
 # Create the data frame.
-emp.data <- data.frame(
-   emp_id = c (1:5), 
-   emp_name = c("Rick","Dan","Michelle","Ryan","Gary"),
-   salary = c(623.3,515.2,611.0,729.0,843.25), 
+alun.data <- data.frame( 
+   alun_name = c("João","Pedro","Ana","Teo","Fernanda", "Gustavo"),
+   alun_altu = c(623.3,515.2,611.0,729.0,843.25), 
    
    start_date = as.Date(c("2012-01-01", "2013-09-23", "2014-11-15", "2014-05-11",
       "2015-03-27")),
