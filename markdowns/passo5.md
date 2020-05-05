@@ -5,8 +5,8 @@ Os DataFrames possuem as seguintes características:
 + As colunas deve ter uma nome, não devem estar vazios.
 + Os nomes das linhas devem ser exclusivos (índices).
 + Os dados armazenados em um dataframe podem ser do tipo numérico, real ou caractere.
-+ Cada coluna deve conter o mesmo número de itens de dados.
-Observe o DataFrame a seguir:
++ Cada coluna deve conter o mesmo número de itens de dados. <br>
+Observe o DataFrame a seguir:<br>
 table class="table table-condensed">
 <thead>
 <tr class="header">
