@@ -1,6 +1,6 @@
 # Exercícios
 ---
-<p> </p>
+
 ?[O que ocorre quando é definido o argumento byrow = TRUE na criação de uma matriz?](single)
 -[ ] Cria uma matriz do tipo booleano com valores iguais a TRUE 
 -[ ] Cria uma matriz vazia (empty) do tipo booleano 
