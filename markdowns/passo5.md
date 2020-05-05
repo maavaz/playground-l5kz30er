@@ -15,9 +15,8 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <th>idade</th>
 <th align="left">sexo</th>
 <th align="left">peso</th>
-<th align="left">fumante</th>
 <th align="center">uf</th>
-<th align="left">renda</th>
+<th align="left">renda (S.M.)</th>
 </tr>
 </thead>
 <tbody>
@@ -37,7 +36,6 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td>21</td>
 <td align="left">M</td>
 <td align="left">92.1</td>
-<td align="left">não</td>
 <td align="center">AL</td>
 <td align="left">5</td>
 </tr>
@@ -47,7 +45,6 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td>18</td>
 <td align="left">F</td>
 <td align="left">66.5</td>
-<td align="left">sim</td>
 <td align="center">PE</td>
 <td align="left">10</td>
 </tr>
@@ -57,7 +54,6 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td>20</td>
 <td align="left">M</td>
 <td align="left">88.1</td>
-<td align="left">não</td>
 <td align="center">RJ</td>
 <td align="left">20</td>
 </tr>
@@ -67,7 +63,6 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td>23</td>
 <td align="left">F</td>
 <td align="left">58.0</td>
-<td align="left">sim</td>
 <td align="center">SP</td>
 <td align="left">10</td>
 </tr>
@@ -77,13 +72,12 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 <td>19</td>
 <td align="left">M</td>
 <td align="left">75.4</td>
-<td align="left">não</td>
 <td align="center">CE</td>
 <td align="left">NA</td>
 </tr>
 </tbody>
 </table>
-O exemplo a seguir representa a criação do DataFrame acima:
+O exemplo a seguir representa a criação do DataFrame acima:<br>
 ``` R runnable
 # Create the data frame.
 alun.data <- data.frame( 
