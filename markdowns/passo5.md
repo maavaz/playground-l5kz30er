@@ -7,7 +7,7 @@ Os DataFrames possuem as seguintes características:
 + Os dados armazenados em um dataframe podem ser do tipo numérico, real ou caractere.
 + Cada coluna deve conter o mesmo número de itens de dados. <br>
 Observe o DataFrame a seguir:<br>
-table class="table table-condensed">
+<table class="table table-condensed">
 <thead>
 <tr class="header">
 <th align="left">nome</th>
