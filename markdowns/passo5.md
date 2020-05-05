@@ -77,7 +77,8 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 </tbody>
 </table>
 O exemplo a seguir representa a criação do DataFrame acima:<br>
-``` R runnable
+
+```` R runnable
 # Create the data frame.
 alun.data <- data.frame( 
    alun_name = c("João","Pedro","Ana","Teo","Fernanda", "Gustavo"),
