@@ -86,7 +86,7 @@ alun.data <- data.frame(
    alun_sexo = c('M', 'M', 'F', 'M', 'F', 'M'),
    alun_peso = c(78.3, 92.1, 66.5, 88.1, 58, 75.4),
    alun_sigla =c("PB", "AL", "PE", "RJ", "SP", "CE"),
-   alun_renda = c(2, 5, 10, 20, 10, "NA"),
+   alun_renda = c(2, 5, 10, 20, 10, NA),
    stringsAsFactors = FALSE
 )
 # Print the data frame.			
