@@ -90,6 +90,7 @@ alun <- data.frame(
 )
 			
 list(alun) 
+```
 
 ## Modificando DataFrame
 A manipulação de data frames é similar à manipulação de matrizes em muitos pontos. A seleção de elementos segue a mesma lógica.
