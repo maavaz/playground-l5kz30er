@@ -90,6 +90,6 @@ alun.data <- data.frame(
    stringsAsFactors = FALSE
 )
 # Print the data frame.			
-print(alum.data) 
+print(alun.data) 
 
 ```
