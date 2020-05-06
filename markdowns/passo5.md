@@ -79,16 +79,16 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 O exemplo a seguir representa a criação do DataFrame (tabela) acima:<br>
 
 ```` R runnable
-alun.data <- data.frame( 
-   alun_name = c("João","Pedro","Ana","Teo","Fernanda", "Gustavo"),
-   alun_altu = c(1.7,1.87,1.69,1.75,1.66, 1.73), 
-   alun_sexo = c('M', 'M', 'F', 'M', 'F', 'M'),
-   alun_peso = c(78.3, 92.1, 66.5, 88.1, 58, 75.4),
-   alun_sigla =c("PB", "AL", "PE", "RJ", "SP", "CE"),
-   alun_renda = c(2, 5, 10, 20, 10, NA),
+alun <- data.frame( 
+   nome = c("João","Pedro","Ana","Teo","Fernanda", "Gustavo"),
+   altura = c(1.7,1.87,1.69,1.75,1.66, 1.73), 
+   sexo = c('M', 'M', 'F', 'M', 'F', 'M'),
+   peso = c(78.3, 92.1, 66.5, 88.1, 58, 75.4),
+   uf =c("PB", "AL", "PE", "RJ", "SP", "CE"),
+   renda = c(2, 5, 10, 20, 10, NA),
    stringsAsFactors = FALSE
 )
 			
-list(alun.data) 
+list(alun) 
 
 
