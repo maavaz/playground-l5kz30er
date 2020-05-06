@@ -79,7 +79,6 @@ Observe o DataFrame a seguir onde cada coluna representa um tipo de dados refere
 O exemplo a seguir representa a criação do DataFrame (tabela) acima:<br>
 
 ```` R runnable
-# Create the data frame.
 alun.data <- data.frame( 
    alun_name = c("João","Pedro","Ana","Teo","Fernanda", "Gustavo"),
    alun_altu = c(1.7,1.87,1.69,1.75,1.66, 1.73), 
@@ -89,7 +88,7 @@ alun.data <- data.frame(
    alun_renda = c(2, 5, 10, 20, 10, NA),
    stringsAsFactors = FALSE
 )
-# Print the data frame.			
+			
 list(alun.data) 
 
 ```
