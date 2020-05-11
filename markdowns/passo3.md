@@ -11,7 +11,7 @@ print(matx)
 
 #Pulando de Linha 
 cat("\n")
-
+#testando
 # Criando a matriz 3x3 maty
 maty <- matrix(c(10,100,1000, 20, 200, 2000, 30, 300, 3000),ncol = 3)
 print(maty)
