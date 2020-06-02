@@ -20,7 +20,7 @@ Os nomes de variáveis permitem todos caracteres alfanuméricos (e em alguns pa�
 
 ### <b>Comando de Atribuição</b>
 
-O comando de atribuição tem a função de mover (atribuir) um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar três tipos/formas de representação do comando de atribuição, a saber:<br>
+O comando de atribuição tem a função de mover (atribuir) um valor para dentro de uma variável. Uma variável é criada no momento da execução do comando. O **R** pode usar quatro tipos/formas de representação do comando de atribuição, a saber:<br>
 ![atribuicao](/markdowns/imagens/atribuicao.png)
 
 ``` R
